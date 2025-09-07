@@ -1,4 +1,4 @@
-import Navbar from "@/public/navbar";
+import Navbar from "@/components/navbar";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
         <div className="col-start-3 col-span-4 text-center">
           <div className="grid grid-cols-4 gap-4 ">
             <div className="col-start-2 col-span-2">
-              <div className="aspect-[349/117] mx-auto mb-2 relative">
+              <div className="aspect-[349/117] mx-auto mb-1 relative">
                 <Image
                   src="/images/hoaibaoimaginative.png"
                   alt="hoaibao imaginative"
@@ -19,17 +19,22 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-4 mb-6 ">
+          <div className="grid grid-cols-4 gap-4 mb-3">
             <div className="col-start-2 col-span-2"> {/* CENTER 2 columns */}
               <div className="aspect-[345/264] relative">
                 <Image
                   src="/images/baby1.png"
                   alt="baby1"
                   fill
-                  className="object-cover rounded-sm"
+                  className="object-cover"
                 />
               </div>
             </div>
+          </div>
+
+          <div>
+            <p className="font-serif text-xl font-light mb-10">multidisciplinary designer based in Hanoi, Vietnam but<br/>
+            currently residing in Rutland, Vermont, USA.</p>
           </div>
 
           <div>

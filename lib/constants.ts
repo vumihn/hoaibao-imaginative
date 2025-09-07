@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: "works", href: "#" },
-  { name: "thoughts", href: "#" },
-  { name: "about/contact", href: "#" },
+  { name: "works", href: "/works"},
+  { name: "thoughts", href: "/thoughts" },
+  { name: "about/contact", href: "about/contact" },
 ];

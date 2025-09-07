@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Serif } from "next/font/google";
 import Lausanne from "next/font/local";
 import "./globals.css";
+import PageTransition from "@/components/PageTransition";
 
 const noto = Noto_Serif({
   variable: "--font-noto-serif",

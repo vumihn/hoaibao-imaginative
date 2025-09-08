@@ -14,7 +14,7 @@ export default function Navbar() {
             return "hover:bg-[#FF0004]";
         case "/thoughts":
             return "hover:bg-[#FFE500]";
-        case "/about/contact":
+        case "/about":
             return "hover:bg-[#00E522]";
         default:
             return "hover:bg-gray-500";
@@ -37,24 +37,25 @@ export default function Navbar() {
     switch (pathname) {
       case "/works":
         return [
-          { name: "home", href: "/" },           // Inherits red hover (works color)
-          { name: "thoughts", href: "/thoughts" },
-          { name: "about/contact", href: "/about" },
+          { name: "home", href: "/", alignment: "left" },           // Inherits red hover (works color)
+          { name: "thoughts", href: "/thoughts", alignment: "right" },
+          { name: "about/contact", href: "/about/contact", alignment: "left" },
         ];
       case "/thoughts":
         return [
-          { name: "works", href: "/works" },
-          { name: "home", href: "/" },           // Inherits yellow hover (thoughts color)
-          { name: "about/contact", href: "/about" },
+          { name: "works", href: "/works", alignment: "left" },
+          { name: "home", href: "/", alignment: "right" },           // Inherits yellow hover (thoughts color)
+          { name: "about/contact", href: "/about/contact", alignment: "left" },
         ];
-      case "/about":
+      case "/about/contact":
         return [
-          { name: "works", href: "/works" },
-          { name: "thoughts", href: "/thoughts" },
-          { name: "home", href: "/" },           // Inherits green hover (about/contact color)
+          { name: "works", href: "/works", alignment: "left" },
+          { name: "thoughts", href: "/thoughts", alignment: "right" },
+          { name: "home", href: "/", alignment: "left" },           // Inherits green hover (about/contact color)
         ];
       default: // Homepage
-        return navItems;
+        return navItems.map(item => ({ ...item, 
+          alignment: item.name === "thoughts" ? "right" : "left" }));
     }
   };
 
@@ -65,7 +66,7 @@ export default function Navbar() {
       {currentNavItems.map((item) => (
         <div key={item.name} className="grid grid-cols-4 gap-4">
           <div className={`col-start-2 col-span-2 ${
-            item.name === "thoughts" ? "text-right" : "text-left"
+            item.alignment === "right" ? "text-right" : "text-left"
           }`}>
             <Link 
               href={item.href}

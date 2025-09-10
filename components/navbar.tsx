@@ -14,7 +14,7 @@ export default function Navbar() {
             return "hover:bg-[#FF0004]";
         case "/thoughts":
             return "hover:bg-[#FFE500]";
-        case "/about":
+        case "/about/contact":
             return "hover:bg-[#00E522]";
         default:
             return "hover:bg-gray-500";

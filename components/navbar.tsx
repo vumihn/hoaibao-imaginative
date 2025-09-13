@@ -70,7 +70,7 @@ export default function Navbar() {
           }`}>
             <Link 
               href={item.href}
-              className={`text-xl font-sans font-normal transition-colors ${getHoverColor(item.name, pathname)} ${
+              className={`text-xl text-black dark:text-white font-sans font-normal transition-colors ${getHoverColor(item.name, pathname)} ${
                 item.name === "about/contact" ? "" : ""
               }`}
             >

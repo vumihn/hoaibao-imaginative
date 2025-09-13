@@ -21,7 +21,7 @@ export default function Home() {
             <div className="col-start-3 col-span-4 mb-10 border-b border-black">
               </div>
             
-            <div className="col-start-3 col-span-4">
+            {/* <div className="col-start-3 col-span-4">
                 <div className="mx-auto grid grid-cols-8 gap-5">
                 <div className="col-start-1 col-span-5">
                     <div className="relative aspect-[368/238] bg-gray-300 mb-4">
@@ -59,7 +59,11 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            </div>
+            </div> */}
+
+            <div className="col-start-3 col-span-4">
+                <h1 className="font-sans text-[16px] font-bold">September 12th 2025</h1>
+                </div>
             
             
 

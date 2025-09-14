@@ -1,24 +1,26 @@
 import Navbar from "@/components/navbar";
 import PageTransition from "@/components/PageTransition";
 import Image from "next/image";
+import DarkToggle from "@/components/darktoggle";
+import ThemeImage from "@/components/ThemeImage";
 
 export default function Home() {
   return (
     <PageTransition>
-        <div className="min-h-screen bg-white py-12 px-4">
+        <div className="min-h-screen bg-white dark:bg-black py-12 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-8 gap-4">
+            <DarkToggle />
             <div className="col-start-3 col-span-4 text-center">
             <div>
                 <Navbar/>
             </div>
 
             <div>
-                <p className="font-serif text-xl font-light mb-10">multidisciplinary designer based in Hanoi, Vietnam but<br/>
-                currently residing in Rutland, Vermont, USA.</p>
+                <p className="font-serif text-xl font-light mb-10 text-black dark:text-white">multidisciplinary designer based in Hanoi, Vietnam but currently residing in Rutland, Vermont, USA.</p>
             </div>
             </div>
 
-            <div className="col-start-3 col-span-4 mb-10 border-b border-black">
+            <div className="col-start-3 col-span-4 mb-10 border-b border-black dark:border-white">
               </div>
             
             {/* <div className="col-start-3 col-span-4">
@@ -62,7 +64,7 @@ export default function Home() {
             </div> */}
 
             <div className="col-start-3 col-span-4">
-                <h1 className="font-sans text-[16px] font-bold">September 12th 2025</h1>
+                <h1 className="font-sans text-[16px] font-bold text-black dark:text-white">September 12th 2025</h1>
                 </div>
             
             

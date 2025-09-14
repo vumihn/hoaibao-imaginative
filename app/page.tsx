@@ -40,7 +40,7 @@ export default function Home() {
             </div>
 
             <div>
-              <p className="font-serif text-xl font-light text-black dark:text-white mb-12">multidisciplinary designer based in Hanoi, Vietnam but<br/>
+              <p className="font-serif text-xl font-light text-black dark:text-white mb-12">multidisciplinary designer based in Hanoi, Vietnam but
               currently residing in Rutland, Vermont, USA.</p>
               
             </div>

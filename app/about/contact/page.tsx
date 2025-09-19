@@ -60,7 +60,7 @@ export default function Home() {
             <div className="col-start-3 col-span-4 mb-12 border-b border-black dark:border-white">
             </div>
 
-              <div className="col-start-3 col-span-4 mb-6">
+              <div className="col-start-3 col-span-4 mb-6 text-black dark:text-white">
                 <div className="mx-auto text-left font-sans text-xl font-semibold">
                   <h2>{isExpanded ? "RESUME(i'm ready to contribute!)" : "RESUME(for employers)"}</h2>
                 </div>
@@ -98,7 +98,7 @@ export default function Home() {
               </div>
           </div>
 
-          <div className="col-start-3 col-span-4 mb-10">
+          <div className="col-start-3 col-span-4 mb-10 text-black dark:text-white">
             <div className="mx-auto text-left font-sans text-xl font-semibold mb-4">
               <h2>NOTES</h2>
             </div>

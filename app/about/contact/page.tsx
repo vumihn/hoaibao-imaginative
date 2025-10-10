@@ -71,22 +71,22 @@ export default function Home() {
                 }`}>
                 <div className="font-sans text-base font-normal space-y-4">
                   <div>
-                    Jun 2023 - Sep 2024: <span className="font-bold">TWIN Software Solution</span>
+                    - Jun 2023 - Sep 2024: <span className="font-bold">TWIN Software Solution</span>
                     <span className="italic"> . Frontend Developer Intern</span>
                   </div>
                   
                   <div>
-                    Sep 2023 - May 2024: <span className="font-bold">Vietnamese Student Association</span>
+                    - Sep 2023 - May 2024: <span className="font-bold">Vietnamese Student Association</span>
                     <span className="italic"> . Lead Designer</span>
                   </div>
                   
                   <div>
-                    Jun 2024 - Sept 2024: <span className="font-bold">Alzerina Jewelry</span>
+                    - Jun 2024 - Sept 2024: <span className="font-bold">Alzerina Jewelry</span>
                     <span className="italic"> . Website Designer Intern</span>
                   </div>
                   
                   <div>
-                    June 2025 - Oct 2025: <span className="font-bold">Tuttle Publishing</span>
+                    - June 2025 - Oct 2025: <span className="font-bold">Tuttle Publishing</span>
                     <span className="italic"> . Graphic Designer Intern</span>
                   </div>
                   
@@ -100,14 +100,22 @@ export default function Home() {
 
           <div className="col-start-3 col-span-4 mb-10 text-black dark:text-white">
             <div className="mx-auto text-left font-sans text-xl font-semibold mb-4">
-              <h2>NOTES</h2>
+              <h2>COLOPHON/USES</h2>
             </div>
             <div className="font-sans text-base font-normal space-y-2">
-                <p>And as for that 'promotional picture' we made for the 'Thank You' bag - it's just a quick snapshot of us, wearing the bags on our heads. 
-                In fact, it sort of refers to the 7-inch sleeve of The Damned's 'Neat Neat Neat' (1977). </p>
-                <p>In recent times, I've tended to lean toward web and UI design work as I find branding tedious. This includes graphic design, packaging, and related fields. 
-                For quite a while, I couldn't put my finger on how and why my focus shifted. 
-                The other day, when doing some trivial tasks in Adobe Illustrator, a part of the reason dawned on me: I love the craft, but dread the tool.</p>
+                <div className="font-sans text-base font-normal space-y-4">
+                  <div>
+                    - I was inspired to create this website/personal blog/portfolio/digital garden or whatever you want to call
+                     it by <a href="https://anh.ng/" className="italic">@cybertrinket</a>(chị Ánh), 
+                     I reached out to her directly, and she was very kind to give me some directions on this as well. Thank you!
+                  </div>
+                  <div>
+                    - I drafted the design for this website on Notebook that I got from working at Tuttle Publishing, and also on Figma.
+                  </div>
+                  <div>
+                    - I built this website using Next.js, Tailwind CSS, and Vercel for deployment on a crappy ASUS laptop (I still loves it, planning to buy a new laptop soon though).
+                  </div>
+                </div>
             </div>
           </div>
 

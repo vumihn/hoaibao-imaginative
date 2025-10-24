@@ -5,7 +5,6 @@ import PageTransition from "@/components/PageTransition";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import DarkToggle from "@/components/darktoggle";
-import ThemeImage from "@/components/ThemeImage";
 
 export default function Home() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -50,7 +49,7 @@ export default function Home() {
                 </div>
             </div>
                       <div>
-                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">hi, my name is Minh. i'm a graphic designer/creative coder from Hanoi, Vietnam, 
+                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">hi, my name is Minh. i&apos;m a graphic designer/creative coder from Hanoi, Vietnam, 
                   currently residing in Rutland, Vermont, working as a Graphic Design Intern at Tuttle Publishing.</p>
                 <p className="font-serif text-xl font-light mb-12 text-black dark:text-white">this website is my attempt of revisiting my sworn enemy - coding. 
                   i enjoyed (am currently enjoying) the process of building this website from scratch, so i hope that you will have a pleasant experience while visiting my digital garden as well. <span className="font-normal italic">have a blessed day.</span></p>

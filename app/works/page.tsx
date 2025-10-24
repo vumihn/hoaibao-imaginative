@@ -1,8 +1,6 @@
 import Navbar from "@/components/navbar";
 import PageTransition from "@/components/PageTransition";
-import Image from "next/image";
 import DarkToggle from "@/components/darktoggle";
-import ThemeImage from "@/components/ThemeImage";
 
 export default function Home() {
   return (

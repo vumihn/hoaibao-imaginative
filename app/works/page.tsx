@@ -19,7 +19,7 @@ export default function Home() {
               </div>
               </div>
 
-              <div className="col-start-3 col-span-4 b-12 border-b border-black dark:border-white">
+              <div className="col-start-2 col-span-6 b-12 border-b border-black dark:border-white">
               </div>
 
           </div>

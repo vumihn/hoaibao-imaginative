@@ -4,6 +4,7 @@ import Image from "next/image";
 import DarkToggle from "@/components/darktoggle";
 import ThemeImage from "@/components/ThemeImage";
 import Link from "next/link";
+import { scale } from "framer-motion";
 
 export default function Home() {
   const projects = [
@@ -12,21 +13,56 @@ export default function Home() {
       image: "/images/tuttle.JPG",
       alt: "Project 1",
       href: "#",
-      title: "Tuttle Publishing Assets Design",
+      title: "Tuttle Publishing",
       width: 4,
       height: 3,
-      type: "image"
+      type: "image",
+      scale: 0.8
     },
     {
       id: 2,
+      video: "/images/swisspostersvid.mp4",
+      alt: "Project 3",
+      href: "#",
+      title: "Posters",
+      width: 2,
+      height: 3,
+      type: "video",
+      scale: 0.8
+    },
+    {
+      id: 3,
       video: "/images/cuoipromotional.mp4",
       alt: "Project 2",
       href: "#",
-      title: "CUOI(Wedding) Photozine",
+      title: "Publication #1",
       width: 1,
       height: 1,
-      type: "video"
+      type: "video",
+      scale: 1
     },
+    {
+      id: 4,
+      video: "/images/aviatlogovertical.mp4",
+      alt: "Project 4",
+      href: "#",
+      title: "Aviat: Branding",
+      width: 3,
+      height: 1,
+      type: "video",
+      scale: 1
+    },
+    {
+      id: 5,
+      video: "/images/chatdauvideo.mp4",
+      alt: "Project 5",
+      href: "#",
+      title: "Publication #2",
+      width: 1,
+      height: 1,
+      type: "video",
+      scale: 1
+    }
   ];
 
   return (
@@ -66,7 +102,7 @@ export default function Home() {
             <div>
               <p className="font-serif text-xl font-light text-black dark:text-white mb-12">
                 multidisciplinary designer, coder based in Hanoi, Vietnam but
-                currently residing in Rutland, Vermont, USA.
+                currently residing in Dallas, TX.
               </p>
             </div>
 
@@ -75,22 +111,34 @@ export default function Home() {
             </div>
             
           </div>
-          <div className="col-start-2 col-span-6">
-            <div className="flex flex-wrap gap-4 items-start">
+          <div className="col-start-2 col-span-6 mt-10">
+            <div className="columns-2 gap-4">
               {projects.map((project) => {
                 const aspectRatio = project.width / project.height;
+                const scale = project.scale || 1;
+
+                let baseWidth = aspectRatio > 1.5 ? '100%' : aspectRatio > 1 ? 'calc(66.66% - 0.67rem)' : 'calc(50% - 0.5rem)';
+
+                // Apply scale to width
+                let scaledWidth;
+                if (baseWidth === '100%') {
+                  scaledWidth = `${100 * scale}%`;
+                } else if (baseWidth.includes('66.66%')) {
+                  scaledWidth = `calc(${66.66 * scale}% - ${0.67 * scale}rem)`;
+                } else {
+                  scaledWidth = `calc(${50 * scale}% - ${0.5 * scale}rem)`;
+                }
                 
                 return (
                   <Link
                     key={project.id}
                     href={project.href}
-                    className="relative overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.02] flex-shrink-0"
+                    className="relative overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.02] inline-block mb-4 w-full"
                     style={{
-                      width: aspectRatio > 1.5 ? '100%' : aspectRatio > 1 ? 'calc(66.66% - 0.67rem)' : 'calc(50% - 0.5rem)',
                       aspectRatio: `${project.width} / ${project.height}`
                     }}
                   >
-                    {/* Render image or video based on type */}
+                    {/* Rest of your code stays the same */}
                     {project.type === 'video' ? (
                       <video
                         autoPlay

@@ -4,7 +4,6 @@ import Image from "next/image";
 import DarkToggle from "@/components/darktoggle";
 import ThemeImage from "@/components/ThemeImage";
 import Link from "next/link";
-import { scale } from "framer-motion";
 
 export default function Home() {
   const projects = [
@@ -17,7 +16,6 @@ export default function Home() {
       width: 4,
       height: 3,
       type: "image",
-      scale: 0.8
     },
     {
       id: 2,
@@ -28,7 +26,6 @@ export default function Home() {
       width: 2,
       height: 3,
       type: "video",
-      scale: 0.8
     },
     {
       id: 3,
@@ -39,7 +36,6 @@ export default function Home() {
       width: 1,
       height: 1,
       type: "video",
-      scale: 1
     },
     {
       id: 4,
@@ -50,7 +46,6 @@ export default function Home() {
       width: 3,
       height: 1,
       type: "video",
-      scale: 1
     },
     {
       id: 5,
@@ -61,7 +56,6 @@ export default function Home() {
       width: 1,
       height: 1,
       type: "video",
-      scale: 1
     }
   ];
 
@@ -115,20 +109,7 @@ export default function Home() {
             <div className="columns-2 gap-4">
               {projects.map((project) => {
                 const aspectRatio = project.width / project.height;
-                const scale = project.scale || 1;
 
-                let baseWidth = aspectRatio > 1.5 ? '100%' : aspectRatio > 1 ? 'calc(66.66% - 0.67rem)' : 'calc(50% - 0.5rem)';
-
-                // Apply scale to width
-                let scaledWidth;
-                if (baseWidth === '100%') {
-                  scaledWidth = `${100 * scale}%`;
-                } else if (baseWidth.includes('66.66%')) {
-                  scaledWidth = `calc(${66.66 * scale}% - ${0.67 * scale}rem)`;
-                } else {
-                  scaledWidth = `calc(${50 * scale}% - ${0.5 * scale}rem)`;
-                }
-                
                 return (
                   <Link
                     key={project.id}

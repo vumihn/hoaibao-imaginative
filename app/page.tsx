@@ -1,11 +1,32 @@
+'use client';
 import Navbar from "@/components/navbar";
 import PageTransition from "@/components/PageTransition";
 import Image from "next/image";
 import DarkToggle from "@/components/darktoggle";
 import ThemeImage from "@/components/ThemeImage";
 import Link from "next/link";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+
+  const [isExpanded, setIsExpanded] = useState(false);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollY = window.scrollY;
+        const triggerPoint = 250;
+  
+        if (scrollY > triggerPoint && !isExpanded){
+          setIsExpanded(true);
+        }else if (scrollY <= triggerPoint && isExpanded){
+          setIsExpanded(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll)
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, [isExpanded]);
+
   const projects = [
     {
       id: 1,
@@ -105,50 +126,63 @@ export default function Home() {
             </div>
             
           </div>
-          <div className="col-start-2 col-span-6 mt-10">
-            <div className="columns-2 gap-4">
-              {projects.map((project) => {
-                const aspectRatio = project.width / project.height;
 
-                return (
-                  <Link
-                    key={project.id}
-                    href={project.href}
-                    className="relative overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.02] inline-block mb-4 w-full"
-                    style={{
-                      aspectRatio: `${project.width} / ${project.height}`
-                    }}
-                  >
-                    {/* Rest of your code stays the same */}
-                    {project.type === 'video' ? (
-                      <video
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        className="absolute inset-0 w-full h-full object-cover transition-all duration-300 group-hover:brightness-30"
+          
+          <div className="col-start-2 col-span-6 ">
+            <div 
+              className={`transition-all duration-1000 ease-out ${
+                isExpanded 
+                  ? 'opacity-100 translate-y-0' 
+                  : 'opacity-0 translate-y-10'
+              }`}
+              style={{
+                visibility: isExpanded ? 'visible' : 'hidden'
+              }}
+            >
+                <div className="columns-2 gap-4">
+                  {projects.map((project) => {
+                    const aspectRatio = project.width / project.height;
+
+                    return (
+                      <Link
+                        key={project.id}
+                        href={project.href}
+                        className="relative overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.02] inline-block mb-4 w-full"
+                        style={{
+                          aspectRatio: `${project.width} / ${project.height}`
+                        }}
                       >
-                        <source src={project.video} type="video/mp4" />
-                      </video>
-                    ) : project.image ? (
-                      <Image
-                        src={project.image}
-                        alt={project.alt}
-                        fill
-                        className="object-cover transition-all duration-300 group-hover:brightness-30"
-                      />
-                    ) : null}
-                    
-                    {/* Overlay with text - hidden by default, visible on hover */}
-                    <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 px-4">
-                      <h3 className="text-white font-serif text-3xl font-light mb-2 text-center">
-                        {project.title}
-                      </h3>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
+                        {/* Rest of your code stays the same */}
+                        {project.type === 'video' ? (
+                          <video
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            className="absolute inset-0 w-full h-full object-cover transition-all duration-300 group-hover:brightness-30"
+                          >
+                            <source src={project.video} type="video/mp4" />
+                          </video>
+                        ) : project.image ? (
+                          <Image
+                            src={project.image}
+                            alt={project.alt}
+                            fill
+                            className="object-cover transition-all duration-300 group-hover:brightness-30"
+                          />
+                        ) : null}
+                        
+                        {/* Overlay with text - hidden by default, visible on hover */}
+                        <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 px-4">
+                          <h3 className="text-white font-serif text-3xl font-light mb-2 text-center">
+                            {project.title}
+                          </h3>
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
           </div>
         </div>
       </div>

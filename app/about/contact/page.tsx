@@ -40,7 +40,7 @@ export default function Home() {
                 <div className="col-start-2 col-span-2"> {/* CENTER 2 columns */}
                     <div className="aspect-[345/264] relative">
                         <Image
-                          src="/images/bumbw.png"
+                          src="/images/bumbwnew.jpg"
                           alt="baby1"
                           fill
                           className="object-cover"
@@ -49,8 +49,8 @@ export default function Home() {
                 </div>
             </div>
                       <div>
-                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">hi, my name is Minh. i&apos;m a graphic designer/creative coder from Hanoi, Vietnam, 
-                  currently residing in Rutland, Vermont, working as a Graphic Design Intern at Tuttle Publishing.</p>
+                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">hi, my name is Minh. i&apos;m a designer, coder from Hanoi, Vietnam, 
+                  currently residing in Dallas, TX.</p>
                 <p className="font-serif text-xl font-light mb-12 text-black dark:text-white">this website is my attempt of revisiting my sworn enemy - coding. 
                   i enjoyed (am currently enjoying) the process of building this website from scratch, so i hope that you will have a pleasant experience while visiting my digital garden as well. <span className="font-normal italic">have a blessed day.</span></p>
             </div>

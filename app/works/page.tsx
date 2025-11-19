@@ -116,7 +116,7 @@ export default function Home() {
                 <div className="col-start-2 col-span-6 b-12 border-b border-black dark:border-white">
                 </div>
 
-                <div className="mt-5 mb-10">
+                <div className="mt-5 mb-20">
                   <h2 className="font-serif text-2xl font-normal mb-4 text-black dark:text-white">&apos;aviat&apos;{" "} 
                     <span className="text-base font-light italic">(Branding, Graphic Design)</span></h2>
                     <div className="mx-auto grid grid-cols-7 gap-5 mt-8">
@@ -174,6 +174,15 @@ export default function Home() {
                   </div>
                   </div>
                 </div>
+
+                <div className="col-start-2 col-span-6 b-12 border-b border-black dark:border-white">
+                </div>
+
+                <div className="mt-5 mb-20">
+                  <h2 className="font-serif text-2xl font-normal mb-4 text-black dark:text-white">Publication #1{" "}
+                    <span className="text-base font-light italic">(Editorial, Graphic Design)</span></h2>
+                </div>
+
               </div>
 
           </div>

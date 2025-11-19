@@ -117,10 +117,10 @@ export default function Home() {
                 </div>
 
                 <div className="mt-5 mb-10">
-                  <h2 className="font-serif text-2xl font-normal mb-4 text-black dark:text-white">'aviat'{" "} 
+                  <h2 className="font-serif text-2xl font-normal mb-4 text-black dark:text-white">&apos;aviat&apos;{" "} 
                     <span className="text-base font-light italic">(Branding, Graphic Design)</span></h2>
                     <div className="mx-auto grid grid-cols-7 gap-5 mt-8">
-                      <p className="col-start-1 col-span-7 font-sans text-base font-normal text-black dark:text-white">'aviat'&apos;s new visual identity is anchored by a bold red ribbon—evoking both the excitement of a ribbon-cutting ceremony and the practicality of our signature tape products. 
+                      <p className="col-start-1 col-span-7 font-sans text-base font-normal text-black dark:text-white">&apos;aviat&apos;&apos;s new visual identity is anchored by a bold red ribbon—evoking both the excitement of a ribbon-cutting ceremony and the practicality of our signature tape products. 
                         This unified symbol captures our purpose: to <span className="bg-[#4069b2] text-white">seal</span>, <span className="bg-[#4069b2] text-white">support</span>, and <span className="bg-[#4069b2] text-white">strengthen</span> every customer need.</p>
                     <div className="col-start-1 col-span-3 space-y-5">
                       <div className="aspect-[3/1] relative">

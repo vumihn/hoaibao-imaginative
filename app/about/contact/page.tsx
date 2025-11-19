@@ -1,7 +1,7 @@
 'use client';
 
 import Navbar from "@/components/navbar";
-//import PageTransition from "@/components/PageTransition";
+import PageTransition from "@/components/PageTransition";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import DarkToggle from "@/components/darktoggle";
@@ -26,7 +26,7 @@ export default function Home() {
   }, [isExpanded]);
 
   return (
-    //<PageTransition>
+    <PageTransition>
         <div className="min-h-screen bg-white dark:bg-black py-12 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-8 gap-4">
           <DarkToggle />
@@ -52,7 +52,7 @@ export default function Home() {
                 <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">hi, my name is Minh. i&apos;m a designer, coder from Hanoi, Vietnam, 
                   currently residing in Dallas, TX.</p>
                 <p className="font-serif text-xl font-light mb-12 text-black dark:text-white">this website is my attempt of revisiting my sworn enemy - coding. 
-                  i enjoyed (am currently enjoying) the process of building this website from scratch, so i hope that you will have a pleasant experience while visiting my digital garden as well. <span className="font-normal italic">have a blessed day.</span></p>
+                  i enjoyed (am currently enjoying) the process of building this website from scratch, so i hope that you will have a pleasant experience while visiting my digital garden as well. Connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal italic hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal italic hover:opacity-70 transition-opacity">LinkedIn.</a></p>
             </div>
             </div>
 
@@ -120,6 +120,6 @@ export default function Home() {
 
           </div>
         </div>
-    //</PageTransition>
+    </PageTransition>
   );
 }

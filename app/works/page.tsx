@@ -1,11 +1,11 @@
 import Navbar from "@/components/navbar";
-//import PageTransition from "@/components/PageTransition";
+import PageTransition from "@/components/PageTransition";
 import DarkToggle from "@/components/darktoggle";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    //<PageTransition>
+    <PageTransition>
         <div className="min-h-screen bg-white dark:bg-black py-12 px-4">
           <div className="max-w-6xl mx-auto grid grid-cols-8 gap-4">
             <DarkToggle />
@@ -165,7 +165,7 @@ export default function Home() {
                       </div>
                       <div className="aspect-[4/3] relative">
                         <Image
-                          src="/images/wildposters.png"
+                          src="/images/wildposters.jpg"
                           alt="Wild Posters"
                           fill
                           className="object-cover"
@@ -179,14 +179,85 @@ export default function Home() {
                 </div>
 
                 <div className="mt-5 mb-20">
-                  <h2 className="font-serif text-2xl font-normal mb-4 text-black dark:text-white">Publication #1{" "}
+                  <h2 className="font-serif text-2xl font-normal mb-4 text-black dark:text-white">Publication #2{" "}
                     <span className="text-base font-light italic">(Editorial, Graphic Design)</span></h2>
+                    <div className="mx-auto grid grid-cols-4 gap-5 mt-8">
+                      <p className="col-start-1 col-span-4 font-sans text-base font-normal text-black dark:text-white">Drawing from <span className="bg-[#FF0004]">unfinished</span> head sculptures left in my school&apos;s studio, 
+                        I created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the <span className="bg-[#FF0004]">creative</span> potential hidden in abandoned pieces.</p>
+                      <div className="aspect-[4/3] relative col-start-1 col-span-4">
+                          <Image
+                          src="/images/decap1.jpg"
+                          alt="Decapiate Zine"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>  
+                    <div className="col-start-1 col-span-2 space-y-5">
+                      <div className="aspect-[4/3] relative">
+                          <Image
+                          src="/images/decap2.jpg"
+                          alt="Decapitate Zine"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>                 
+                    </div>
+                    <div className="col-span-2">
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/images/decap3.jpg"
+                          alt="Decapitate Zine"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                  </div>
+                  </div>
+                </div>
+
+                <div className="col-start-2 col-span-6 b-12 border-b border-black dark:border-white">
+                </div>
+
+                <div className="mt-5 mb-20">
+                  <h2 className="font-serif text-2xl font-normal mb-4 text-black dark:text-white">Posters{" "}
+                    <span className="text-base font-light italic">(Typographic, Graphic Design)</span></h2>
+                  <div className="mx-auto grid grid-cols-5 gap-5 mt-8">
+                    <div className="col-start-1 col-span-3">
+                      <div className="aspect-[3/4] relative">
+                        <Image
+                          src="/images/vietnamswissmockup.jpg"
+                          alt="Vietnamese Swiss Poster"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-span-2 space-y-5">
+                      <div className="aspect-[3/4] relative">
+                        <Image
+                          src="/images/wordspeakloudermockup.jpg"
+                          alt="Swiss Poster"
+                          fill
+                          className="object-cover"
+                        />
+                        </div>
+                        <div className="aspect-[3/4] relative">
+                        <Image
+                          src="/images/swissmathmockup.jpg"
+                          alt="Vietnamese Swiss Poster"
+                          fill
+                          className="object-cover"
+                        />
+                        </div>
+                    </div>
+                     
+                  </div>
                 </div>
 
               </div>
 
           </div>
         </div>
-    //</PageTransition>
+    </PageTransition>
   );
 }

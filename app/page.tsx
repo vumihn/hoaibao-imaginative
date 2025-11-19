@@ -1,6 +1,6 @@
 'use client';
 import Navbar from "@/components/navbar";
-//import PageTransition from "@/components/PageTransition";
+import PageTransition from "@/components/PageTransition";
 import Image from "next/image";
 import DarkToggle from "@/components/darktoggle";
 import ThemeImage from "@/components/ThemeImage";
@@ -81,7 +81,7 @@ export default function Home() {
   ];
 
   return (
-    //<PageTransition>
+    <PageTransition>
       <div className="min-h-screen py-12 px-4 bg-white dark:bg-black">
         
         <div className="max-w-6xl mx-auto grid grid-cols-8 gap-4">       
@@ -139,7 +139,7 @@ export default function Home() {
                 visibility: isExpanded ? 'visible' : 'hidden'
               }}
             >
-                <div className="columns-2 gap-4">
+                <div className="columns-2 gap-3.5 ">
                   {projects.map((project) => {
                     const aspectRatio = project.width / project.height;
 
@@ -147,7 +147,7 @@ export default function Home() {
                       <Link
                         key={project.id}
                         href={project.href}
-                        className="relative overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.02] inline-block mb-4 w-full"
+                        className="relative overflow-hidden group cursor-pointer transition-transform duration-300 hover:scale-[1.02] inline-block mb-2 w-full"
                         style={{
                           aspectRatio: `${project.width} / ${project.height}`
                         }}
@@ -186,6 +186,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    //</PageTransition>
+    </PageTransition>
   );
 }

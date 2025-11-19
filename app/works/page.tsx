@@ -34,7 +34,7 @@ export default function Home() {
                         frontlist and backlist titles, creating bookmarks and <span className="bg-[#FF0004]">promotional materials</span> for Publisher&apos;s Weekly and Library Journal.</p>
                       <div className="mt-3 aspect-[4/3] relative">
                         <Image
-                        src="/images/tuttle.jpg"
+                        src="/images/tuttle.JPG"
                         alt="Tuttle Images"
                         fill
                         className="object-cover"
@@ -45,7 +45,7 @@ export default function Home() {
                       {/* Top small image */}
                       <div className="aspect-[1/1] relative">
                         <Image
-                          src="/images/fullpagead.jpg"
+                          src="/images/fullpagead.JPG"
                           alt="Full Page Ad"
                           fill
                           className="object-cover"
@@ -55,7 +55,7 @@ export default function Home() {
                       {/* Bottom small image */}
                       <div className="aspect-[1/1] relative">
                         <Image
-                          src="/images/greenad.jpg"
+                          src="/images/greenad.JPG"
                           alt="Half Page Ad"
                           fill
                           className="object-cover"

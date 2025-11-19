@@ -1,10 +1,10 @@
 import Navbar from "@/components/navbar";
-import PageTransition from "@/components/PageTransition";
+//import PageTransition from "@/components/PageTransition";
 import DarkToggle from "@/components/darktoggle";
 
 export default function Home() {
   return (
-    <PageTransition>
+    //<PageTransition>
         <div className="min-h-screen bg-white dark:bg-black py-12 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-8 gap-4">
             <DarkToggle />
@@ -69,6 +69,6 @@ export default function Home() {
 
         </div>
         </div>
-    </PageTransition>
+    //</PageTransition>
   );
 }

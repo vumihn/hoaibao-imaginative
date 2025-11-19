@@ -11,11 +11,11 @@ export default function Navbar() {
       if (itemName === "home") { 
         switch (currentPage) {
         case "/works":
-            return "hover:bg-[#FF0004]";
+            return "hover:bg-[#FF0004] dark:hover:text-black";
         case "/thoughts":
-            return "hover:bg-[#FFE500]";
+            return "hover:bg-[#FFE500] dark:hover:text-black";
         case "/about/contact":
-            return "hover:bg-[#00E522]";
+            return "hover:bg-[#00E522] dark:hover:text-black";
         default:
             return "hover:bg-gray-500";
         }
@@ -23,11 +23,11 @@ export default function Navbar() {
 
     switch (itemName) {
         case "works":
-            return "hover:bg-[#FF0004]";
+            return "hover:bg-[#FF0004] dark:hover:text-black";
         case "thoughts":
-            return "hover:bg-[#FFE500]";
+            return "hover:bg-[#FFE500] dark:hover:text-black";
         case "about/contact":
-            return "hover:bg-[#00E522]";
+            return "hover:bg-[#00E522] dark:hover:text-black";
         default:
             return "hover:bg-gray-500";
         }

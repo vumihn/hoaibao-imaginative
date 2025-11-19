@@ -1,6 +1,6 @@
 'use client';
 import Navbar from "@/components/navbar";
-import PageTransition from "@/components/PageTransition";
+//import PageTransition from "@/components/PageTransition";
 import Image from "next/image";
 import DarkToggle from "@/components/darktoggle";
 import ThemeImage from "@/components/ThemeImage";
@@ -60,7 +60,7 @@ export default function Home() {
     },
     {
       id: 4,
-      video: "/images/aviatlogovertical.mp4",
+      video: "/images/aviatvertical.mp4",
       alt: "Project 4",
       href: "#",
       title: "Aviat: Branding",
@@ -81,7 +81,7 @@ export default function Home() {
   ];
 
   return (
-    <PageTransition>
+    //<PageTransition>
       <div className="min-h-screen py-12 px-4 bg-white dark:bg-black">
         
         <div className="max-w-6xl mx-auto grid grid-cols-8 gap-4">       
@@ -174,7 +174,7 @@ export default function Home() {
                         
                         {/* Overlay with text - hidden by default, visible on hover */}
                         <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 px-4">
-                          <h3 className="text-white font-serif text-3xl font-light mb-2 text-center">
+                          <h3 className="text-white font-serif text-2xl font-light mb-2 text-center">
                             {project.title}
                           </h3>
                         </div>
@@ -186,6 +186,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </PageTransition>
+    //</PageTransition>
   );
 }

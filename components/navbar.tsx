@@ -64,8 +64,8 @@ export default function Navbar() {
     return (
         <nav className="space-y-4 mb-12">
       {currentNavItems.map((item) => (
-        <div key={item.name} className="grid grid-cols-4 gap-4">
-          <div className={`col-start-2 col-span-2 ${
+        <div key={item.name} className="grid grid-cols-8 gap-4">
+          <div className={`col-start-3 col-span-4 ${
             item.alignment === "right" ? "text-right" : "text-left"
           }`}>
             <Link 

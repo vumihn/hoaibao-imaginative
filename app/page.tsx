@@ -32,7 +32,7 @@ export default function Home() {
       id: 1,
       image: "/images/tuttle.JPG",
       alt: "Project 1",
-      href: "#",
+      href: "/works#tuttle",
       title: "Tuttle Publishing",
       width: 4,
       height: 3,
@@ -42,7 +42,7 @@ export default function Home() {
       id: 2,
       video: "/images/swisspostersvid.mp4",
       alt: "Project 3",
-      href: "#",
+      href: "works#posters",
       title: "Posters",
       width: 2,
       height: 3,
@@ -52,7 +52,7 @@ export default function Home() {
       id: 3,
       video: "/images/cuoipromotional.mp4",
       alt: "Project 2",
-      href: "#",
+      href: "works#publication1",
       title: "Publication #1",
       width: 1,
       height: 1,
@@ -62,7 +62,7 @@ export default function Home() {
       id: 4,
       video: "/images/aviatvertical.mp4",
       alt: "Project 4",
-      href: "#",
+      href: "works#aviat",
       title: "Aviat: Branding",
       width: 3,
       height: 1,
@@ -70,25 +70,32 @@ export default function Home() {
     },
     {
       id: 5,
-      video: "/images/chatdauvideo.mp4",
+      image: "/images/decap4.jpg",
       alt: "Project 5",
-      href: "#",
+      href: "works#publication2",
       title: "Publication #2",
-      width: 1,
-      height: 1,
-      type: "video",
+      width: 4,
+      height: 3,
+      type: "image",
     }
   ];
 
   return (
     <PageTransition>
       <div className="min-h-screen py-12 px-4 bg-white dark:bg-black">
-        
-        <div className="max-w-6xl mx-auto grid grid-cols-8 gap-4">       
+
+        <div className="md:hidden fixed bottom-6 right-6 z-50">
           <DarkToggle />
-          <div className="col-start-3 col-span-4 text-center">
+        </div>
+        
+        <div className="max-w-6xl mx-auto grid grid-cols-10 md:grid-cols-8 gap-4">   
+          <div className="hidden md:block md:fixed md:top-12 md:right-12 md:z-50">
+            <DarkToggle />
+            </div>    
+        
+          <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 text-center">
             
-            <div className="grid grid-cols-4 gap-4">
+            <div className="hidden md:grid grid-cols-4 gap-4">
               <div className="col-start-2 col-span-2">
                 <div className="aspect-[349/117] mx-auto mb-1 relative">
                   <ThemeImage
@@ -101,8 +108,36 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-4 gap-4 mb-3">
+
+            <div className="md:hidden grid grid-cols-10 gap-4">
+              <div className="col-start-3 col-span-6">
+                <div className="aspect-[349/117] mx-auto mb-1 relative">
+                  <ThemeImage
+                    lightSrc="/images/hoaibaoimaginative.png"
+                    darkSrc="/images/hoaibao-dark.png"
+                    alt="hoaibao imaginative"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="hidden md:grid grid-cols-4 gap-4 mb-3">
               <div className="col-start-2 col-span-2">
+                <div className="aspect-[345/264] relative">
+                  <Image
+                    src="/images/baby1.png"
+                    alt="baby1"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className="md:hidden grid grid-cols-10 gap-4 mb-3">
+              <div className="col-start-3 col-span-6">
                 <div className="aspect-[345/264] relative">
                   <Image
                     src="/images/baby1.png"
@@ -128,7 +163,7 @@ export default function Home() {
           </div>
 
           
-          <div className="col-start-2 col-span-6 ">
+          <div className="col-start-2 col-span-6 hidden md:block">
             <div 
               className={`transition-all duration-1000 ease-out ${
                 isExpanded 

@@ -15,7 +15,7 @@ function DarkToggle() {
     };
 
     return (
-        <button onClick={toggleTheme} className="mb-12 font-sans text-[16px] bg-white dark:bg-black text-black dark:text-white">
+        <button onClick={toggleTheme} className="mb-0 md:mb-12 font-sans text-[16px] bg-white dark:bg-black text-black dark:text-white">
             {isDark ? '(light)' : '(dark)'}
         </button>
     );

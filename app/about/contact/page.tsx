@@ -28,15 +28,22 @@ export default function Home() {
   return (
     <PageTransition>
         <div className="min-h-screen bg-white dark:bg-black py-12 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-8 gap-4">
-          <DarkToggle />
-            <div className="col-start-3 col-span-4 text-center">
+
+          <div className="md:hidden sticky bottom-6 right-6 z-50">
+            <DarkToggle />
+          </div>
+
+        <div className="max-w-6xl mx-auto grid grid-cols-10 md:grid-cols-8 gap-4">
+          <div className="hidden md:block md:fixed md:top-12 md:right-12 md:z-50">
+            <DarkToggle />
+            </div>
+            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 text-center">
             <div>
                 <Navbar/>
             </div>
 
 
-            <div className="grid grid-cols-4 gap-4 mb-3">
+            <div className="hidden md:grid grid-cols-4 gap-4 mb-3">
                 <div className="col-start-2 col-span-2"> {/* CENTER 2 columns */}
                     <div className="aspect-[345/264] relative">
                         <Image
@@ -48,18 +55,32 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
+            <div className="md:hidden grid grid-cols-10 gap-4 mb-3">
+                <div className="col-start-3 col-span-6">
+                    <div className="aspect-[345/264] relative">
+                        <Image
+                          src="/images/bumbwnew.jpg"
+                          alt="baby1"
+                          fill
+                          className="object-cover"
+                          />
+                    </div>
+                </div>
+            </div>
+
+
                       <div>
-                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">hi, my name is Minh. i&apos;m a designer, coder from Hanoi, Vietnam, 
+                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">hello world, my name is Minh. i&apos;m a designer, coder from Hanoi, Vietnam, 
                   currently residing in Dallas, TX.</p>
-                <p className="font-serif text-xl font-light mb-12 text-black dark:text-white">this website is my attempt of revisiting my sworn enemy - coding. 
-                  i enjoyed (am currently enjoying) the process of building this website from scratch, so i hope that you will have a pleasant experience while visiting my digital garden as well. Connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal italic hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal italic hover:opacity-70 transition-opacity">LinkedIn.</a></p>
+                <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">welcome to my digital garden/portfolio. connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal italic hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal italic hover:opacity-70 transition-opacity">LinkedIn.</a></p>
             </div>
             </div>
 
-            <div className="col-start-3 col-span-4 mb-12 border-b border-black dark:border-white">
+            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-2 md:mb-12 border-b border-black dark:border-white">
             </div>
 
-              <div className="col-start-3 col-span-4 mb-6 text-black dark:text-white">
+              <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-5 text-black dark:text-white">
                 <div className="mx-auto text-left font-sans text-xl font-semibold">
                   <h2>{isExpanded ? "RESUME(i'm ready to contribute!)" : "RESUME(for employers)"}</h2>
                 </div>
@@ -97,7 +118,7 @@ export default function Home() {
               </div>
           </div>
 
-          <div className="col-start-3 col-span-4 mb-10 text-black dark:text-white">
+          <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-10 text-black dark:text-white">
             <div className="mx-auto text-left font-sans text-xl font-semibold mb-4">
               <h2>COLOPHON/USES</h2>
             </div>

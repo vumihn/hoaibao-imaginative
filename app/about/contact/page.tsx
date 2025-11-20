@@ -71,13 +71,13 @@ export default function Home() {
 
 
                       <div>
-                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">hello world, my name is Minh. i&apos;m a designer, coder from Hanoi, Vietnam, 
+                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">hello world, my name is <span className="italic font-normal text-[#ae1f23]">minh</span>. i&apos;m a designer, coder from Hanoi, Vietnam, 
                   currently residing in Dallas, TX.</p>
                 <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">welcome to my digital garden/portfolio. connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal italic hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal italic hover:opacity-70 transition-opacity">LinkedIn.</a></p>
             </div>
             </div>
 
-            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-2 md:mb-12 border-b border-black dark:border-white">
+            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-2 md:mb-10 border-b border-black dark:border-white">
             </div>
 
               <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-5 text-black dark:text-white">

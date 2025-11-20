@@ -22,7 +22,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                    <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">multidisciplinary designer, coder based in Hanoi, Vietnam but
+                    <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white"><span className="italic font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in Hanoi, Vietnam but
                     currently residing in Dallas, TX.</p>
                 </div>
               </div>

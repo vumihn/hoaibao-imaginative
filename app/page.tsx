@@ -151,7 +151,7 @@ export default function Home() {
 
             <div>
               <p className="font-serif text-xl font-light text-black dark:text-white mb-12">
-                multidisciplinary designer, coder based in Hanoi, Vietnam but
+                <span className="italic font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in Hanoi, Vietnam but
                 currently residing in Dallas, TX.
               </p>
             </div>

@@ -59,11 +59,11 @@ export default function Home() {
                       />
                       </div>                     
                     </div>
-                    <div className="col-span-2 grid grid-rows-2 gap-2">
+                    <div className="col-span-2 grid grid-rows-2 gap-3 md:gap-5">
                       {/* Top small image */}
                       <div className="aspect-[1/1] relative">
                         <Image
-                          src="/images/fullpagead.JPG"
+                          src="/images/fullpagead.jpg"
                           alt="Full Page Ad"
                           fill
                           className="object-cover"
@@ -73,7 +73,7 @@ export default function Home() {
                       {/* Bottom small image */}
                       <div className="aspect-[1/1] relative">
                         <Image
-                          src="/images/greenad.JPG"
+                          src="/images/greenad.jpg"
                           alt="Half Page Ad"
                           fill
                           className="object-cover"
@@ -93,7 +93,7 @@ export default function Home() {
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">Shot entirely on two <span className="bg-[#FFE500] px-0.5 py-0.5 md:px-1 md:py-0.5 dark:text-black">disposable cameras</span>, this zine documents my brother&apos;s wedding through candid, <span className="bg-[#FFE500] px-0.5 py-0.5 md:px-1 md:py-0.5 dark:text-black">run-and-gun</span> moments. 
                         The raw, unfiltered images reveal an intimate look at the beauty and traditions of a Vietnamese wedding.</p>
-                    <div className="col-start-1 col-span-2 space-y-5">
+                    <div className="col-start-1 col-span-2 space-y-3 md:space-y-5">
                       <div className="aspect-[4/3] relative">
                           <Image
                           src="/images/cuoi1.jpg"
@@ -111,7 +111,7 @@ export default function Home() {
                         />
                       </div>                     
                     </div>
-                    <div className="col-span-2 grid grid-rows-2 gap-5">
+                    <div className="col-span-2 grid grid-rows-2 gap-3 md:gap-5">
                       <div className="aspect-[4/3] relative">
                         <Image
                           src="/images/cuoi2.jpg"
@@ -142,7 +142,7 @@ export default function Home() {
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-7 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-7 font-sans text-base md:text-base font-normal text-black dark:text-white">&apos;aviat&apos;&apos;s new visual identity is anchored by a bold red ribbon—evoking both the excitement of a ribbon-cutting ceremony and the practicality of our signature tape products. 
                         This unified symbol captures our purpose: to <span className="bg-[#4069b2] px-0.5 py-0.5 md:px-1 md:py-0.5 text-white">seal</span>, <span className="bg-[#4069b2] px-0.5 py-0.5 md:px-1 md:py-0.5 text-white">support</span>, and <span className="bg-[#4069b2] px-0.5 py-0.5 md:px-1 md:py-0.5 text-white">strengthen</span> every customer need.</p>
-                    <div className="col-start-1 col-span-3 space-y-5">
+                    <div className="col-start-1 col-span-3 space-y-3 md:space-y-5">
                       <div className="aspect-[3/1] relative">
                           <video
                             autoPlay
@@ -174,7 +174,7 @@ export default function Home() {
                         />
                       </div>                      
                     </div>
-                    <div className="col-span-4 space-y-5">
+                    <div className="col-span-4 space-y-3 md:space-y-5">
                       <div className="aspect-[4/3] relative">
                         <Image
                           src="/images/truckmockup.jpg"
@@ -213,7 +213,7 @@ export default function Home() {
                           className="object-cover"
                         />
                       </div>  
-                    <div className="col-start-1 col-span-2 space-y-5">
+                    <div className="col-start-1 col-span-2 space-y-3 md:space-y-5">
                       <div className="aspect-[4/3] relative">
                           <Image
                           src="/images/decap2.jpg"
@@ -254,7 +254,7 @@ export default function Home() {
                         />
                       </div>
                     </div>
-                    <div className="col-span-2 space-y-5">
+                    <div className="col-span-2 space-y-3 md:space-y-5">
                       <div className="aspect-[3/4] relative">
                         <Image
                           src="/images/wordspeakloudermockup.jpg"

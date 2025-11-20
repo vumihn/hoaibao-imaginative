@@ -63,7 +63,7 @@ export default function Home() {
                       {/* Top small image */}
                       <div className="aspect-[1/1] relative">
                         <Image
-                          src="/images/cuoi1.jpg"
+                          src="/images/fullpagead.jpg"
                           alt="Full Page Ad"
                           fill
                           className="object-cover"

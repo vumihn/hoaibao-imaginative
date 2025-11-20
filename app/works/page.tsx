@@ -63,7 +63,7 @@ export default function Home() {
                       {/* Top small image */}
                       <div className="aspect-[1/1] relative">
                         <Image
-                          src="/images/fullpagead.jpg"
+                          src="/images/fullad.jpg"
                           alt="Full Page Ad"
                           fill
                           className="object-cover"
@@ -73,7 +73,7 @@ export default function Home() {
                       {/* Bottom small image */}
                       <div className="aspect-[1/1] relative">
                         <Image
-                          src="/images/greenad.jpg"
+                          src="/images/green.jpg"
                           alt="Half Page Ad"
                           fill
                           className="object-cover"

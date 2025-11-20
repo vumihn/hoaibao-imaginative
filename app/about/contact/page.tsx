@@ -45,13 +45,19 @@ export default function Home() {
 
             <div className="hidden md:grid grid-cols-4 gap-4 mb-3">
                 <div className="col-start-2 col-span-2"> {/* CENTER 2 columns */}
-                    <div className="aspect-[345/264] relative">
+                    <div className="aspect-[345/264] relative group overflow-hidden">
                         <Image
                           src="/images/bumbwnew.jpg"
                           alt="baby1"
                           fill
-                          className="object-cover"
+                          className="object-cover transition-all duration-300 group-hover:brightness-35"
                           />
+                          <div className="absolute inset-0 bg-opacity-0 group-hover:bg-opacity-40 
+                              transition-all duration-300 flex items-start justify-end md:p-1">
+                            <span className="text-white font-serif text-xs md:text-sm italic font-light opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                taken by @lana
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,10 +136,13 @@ export default function Home() {
                      I reached out to her directly, and she was very kind to give me some directions on this as well. Thank you!
                   </div>
                   <div>
-                    - I drafted the design for this website on Notebook that I got from working at Tuttle Publishing, and also on Figma.
+                    - Sketches and drafts for this website were done on Tuttle notebook and Figma. I often caught myself wandering, thinking about creating something personal from scratch, even when I was in office working. So here we are!
                   </div>
                   <div>
-                    - I built this website using Next.js, Tailwind CSS, and Vercel for deployment on a crappy ASUS laptop (I still loves it, planning to buy a new laptop soon though).
+                    - I built this website using Next.js, Tailwind CSS, a lot of Claude, and Vercel for deployment on a crappy ASUS laptop (I still loves it, planning to buy a new laptop soon though).
+                  </div>
+                  <div>
+                    - TWK Lausanne (my first licensed font) and Noto Serif (Google font) are my typefaces of choice for this website.
                   </div>
                 </div>
             </div>

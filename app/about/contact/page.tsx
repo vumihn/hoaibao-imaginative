@@ -32,6 +32,12 @@ export default function Home() {
           <div className="md:hidden sticky bottom-6 right-6 z-50">
             <DarkToggle />
           </div>
+          <button 
+            onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+            className="fixed bottom-6 right-6 bg-black dark:bg-white text-white dark:text-black p-3 rounded-full md:hidden"
+          >
+            ↑
+          </button>
 
         <div className="max-w-6xl mx-auto grid grid-cols-10 md:grid-cols-8 gap-4">
           <div className="hidden md:block md:fixed md:top-12 md:right-12 md:z-50">
@@ -55,7 +61,7 @@ export default function Home() {
                           <div className="absolute inset-0 bg-opacity-0 group-hover:bg-opacity-40 
                               transition-all duration-300 flex items-start justify-end md:p-1">
                             <span className="text-white font-serif text-xs md:text-sm italic font-light opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                taken by @lana
+                                @lana
                             </span>
                         </div>
                     </div>

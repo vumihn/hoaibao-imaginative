@@ -1,3 +1,4 @@
+'use client';
 import Navbar from "@/components/navbar";
 import PageTransition from "@/components/PageTransition";
 import DarkToggle from "@/components/darktoggle";
@@ -11,18 +12,20 @@ export default function Home() {
           <div className="md:hidden sticky bottom-6 right-6 z-50">
             <DarkToggle />
           </div>
+
+          <button 
+            onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+            className="fixed bottom-6 right-6 bg-black dark:bg-white text-white dark:text-black p-3 rounded-full md:hidden z-[9999]"
+          >
+            ↑
+          </button>
           
           <div className="max-w-6xl mx-auto grid grid-cols-10 md:grid-cols-8 gap-4">
             <div className="hidden md:block md:fixed md:top-12 md:right-12 md:z-50">
             <DarkToggle />
             </div>
 
-            <button 
-            onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
-            className="fixed bottom-6 right-6 bg-black dark:bg-white text-white dark:text-black p-3 rounded-full md:hidden"
-          >
-            ↑
-          </button>
+            
               <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 text-center">
                 <div>
                     <Navbar/>

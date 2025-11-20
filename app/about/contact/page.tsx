@@ -32,13 +32,7 @@ export default function Home() {
           <div className="md:hidden sticky bottom-6 right-6 z-50">
             <DarkToggle />
           </div>
-          <button 
-            onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
-            className="fixed bottom-6 right-6 bg-black dark:bg-white text-white dark:text-black p-3 rounded-full md:hidden"
-          >
-            ↑
-          </button>
-
+          
         <div className="max-w-6xl mx-auto grid grid-cols-10 md:grid-cols-8 gap-4">
           <div className="hidden md:block md:fixed md:top-12 md:right-12 md:z-50">
             <DarkToggle />
@@ -94,7 +88,7 @@ export default function Home() {
 
               <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-5 text-black dark:text-white">
                 <div className="mx-auto text-left font-sans text-xl font-semibold">
-                  <h2>{isExpanded ? "RESUME(i'm ready to contribute!)" : "RESUME(for employers)"}</h2>
+                  <h2>{isExpanded ? "RESUME (ready for hire!)" : "RESUME (for employers)"}</h2>
                 </div>
 
                 <div 

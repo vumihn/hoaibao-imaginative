@@ -14,8 +14,8 @@ export default function Home() {
                     </div>
 
                     <div>
-                      <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">Chaffee is a self-initiated UX project focused on modernizing the Chaffee Art Museum's digital engagement, 
-                        demonstrating the application of design thinking for social good, bridging community connection, and directly support the non-profit's operational and revenue goals.</p>
+                      <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">Chaffee is a self-initiated UX project focused on modernizing the Chaffee Art Museum&apos;s digital engagement, 
+                        demonstrating the application of design thinking for social good, bridging community connection, and directly support the non-profit&apos;s operational and revenue goals.</p>
                     </div>
                 </div>
                 <div  id="tuttle" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
@@ -63,7 +63,7 @@ export default function Home() {
 
                       <div className="col-start-1 col-span-6">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          The problem lies in the friction in planning and the difficulties of transaction which negatively affect the revenue and overall experience of this historic museum.
+                          Chaffee Art Museum
                           </p>  
                       </div>
 

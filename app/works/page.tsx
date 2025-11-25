@@ -40,6 +40,8 @@ export default function Home() {
               <div  id="tuttle" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
               </div>
 
+              {/* <a href="/casestudy">Full Case Study</a> */}
+
               <div className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 md:mt-1 mt-0">
                 <div className="mb-10 md:mb-20">
                   <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Tuttle Publishing Assets{" "}
@@ -85,6 +87,7 @@ export default function Home() {
 
                 <div id="publication1" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
                 </div>
+
 
                 <div className="mt-4 md:mt-5 mb-10 md:mb-20">
                   <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Publication #1{" "}

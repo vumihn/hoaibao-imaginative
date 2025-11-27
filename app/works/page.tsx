@@ -49,9 +49,9 @@ export default function Home() {
                     <div className="md:hidden font-serif text-base font-light italic mb-3">(Print and Digital, Graphic Design)</div> 
                   <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-6">
                     <div className="col-start-1 col-span-3 space-y-2.5">
-                      <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">In the summer of 2025, I had the opportunity to work with <span className="bg-[#FF0004] px-0.5 py-0.5 md:px-1 md:py-0.5">Tuttle Publishing</span>, one of the oldest publishers in the U.S. and a leading name in Asian culture publications.</p>
-                      <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white"> My daily responsibilities included <span className="bg-[#FF0004] px-0.5 py-0.5 md:px-1 md:py-0.5">designing</span> Amazon A+ pages for both 
-                        frontlist and backlist titles, creating bookmarks and <span className="bg-[#FF0004] px-0.5 py-0.5 md:px-1 md:py-0.5">promotional materials</span> for Publisher&apos;s Weekly and Library Journal.</p>
+                      <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">In the summer of 2025, I had the opportunity to work with Tuttle Publishing, one of the oldest publishers in the U.S. and a leading name in Asian culture publications.</p>
+                      <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white"> My daily responsibilities included designing Amazon A+ pages for both 
+                        frontlist and backlist titles, creating bookmarks and promotional materials for Publisher&apos;s Weekly and Library Journal.</p>
                       <div className="mt-3 aspect-[4/3] relative">
                         <Image
                         src="/images/tuttle.JPG"
@@ -94,7 +94,7 @@ export default function Home() {
                     <span className="hidden md:inline md:text-base font-light italic">(Editorial, Graphic Design)</span></h2>
                     <div className="md:hidden font-serif text-base font-light italic mb-3">(Editorial, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">Shot entirely on two <span className="bg-[#FFE500] px-0.5 py-0.5 md:px-1 md:py-0.5 dark:text-black">disposable cameras</span>, this zine documents my brother&apos;s wedding through candid, <span className="bg-[#FFE500] px-0.5 py-0.5 md:px-1 md:py-0.5 dark:text-black">run-and-gun</span> moments. 
+                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">Shot entirely on two disposable cameras, this zine documents my brother&apos;s wedding through candid, run-and-gun moments. 
                         The raw, unfiltered images reveal an intimate look at the beauty and traditions of a Vietnamese wedding.</p>
                     <div className="col-start-1 col-span-2 space-y-3 md:space-y-5">
                       <div className="aspect-[4/3] relative">
@@ -144,7 +144,7 @@ export default function Home() {
                     <div className="md:hidden font-serif text-base font-light italic mb-3">(Branding, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-7 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-7 font-sans text-base md:text-base font-normal text-black dark:text-white">&apos;aviat&apos;&apos;s new visual identity is anchored by a bold red ribbon—evoking both the excitement of a ribbon-cutting ceremony and the practicality of our signature tape products. 
-                        This unified symbol captures our purpose: to <span className="bg-[#4069b2] px-0.5 py-0.5 md:px-1 md:py-0.5 text-white">seal</span>, <span className="bg-[#4069b2] px-0.5 py-0.5 md:px-1 md:py-0.5 text-white">support</span>, and <span className="bg-[#4069b2] px-0.5 py-0.5 md:px-1 md:py-0.5 text-white">strengthen</span> every customer need.</p>
+                        This unified symbol captures our purpose: to seal, support, and strengthen every customer need.</p>
                     <div className="col-start-1 col-span-3 space-y-3 md:space-y-5">
                       <div className="aspect-[3/1] relative">
                           <video
@@ -206,8 +206,8 @@ export default function Home() {
                     <span className="hidden md:inline md:text-base font-light italic">(Editorial, Graphic Design)</span></h2>
                     <div className="md:hidden font-serif text-base font-light italic mb-3">(Editorial, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">Drawing from <span className="bg-[#FF0004] px-0.5 py-0.5 md:px-1 md:py-0.5">unfinished</span> head sculptures left in my school&apos;s studio, 
-                        I created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the <span className="bg-[#FF0004] px-0.5 py-0.5 md:px-1 md:py-0.5">creative</span> potential hidden in abandoned pieces.</p>
+                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">Drawing from unfinished head sculptures left in my school&apos;s studio, 
+                        I created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the creative potential hidden in abandoned pieces.</p>
                       <div className="aspect-[4/3] relative col-start-1 col-span-4">
                           <Image
                           src="/images/decap1.jpg"

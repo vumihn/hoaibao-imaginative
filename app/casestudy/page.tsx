@@ -26,7 +26,7 @@ export default function Home() {
                   <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Tuttle Publishing Assets{" "}
                     <span className="hidden md:inline md:text-base font-light italic">(Product/User Experience Design)</span></h2>
                     <div className="md:hidden font-serif text-base font-light italic mb-3">(Product/User Experience Design)</div>
-                    <div className="mx-auto space-y-3 md:grid md:grid-cols-10 md:gap-5 md:mt-6">
+                    <div className="mx-auto space-y-2 md:grid md:grid-cols-10 md:gap-5 md:mt-6">
 
                       <div className="col-start-3 col-span-6">
                           <p className="font-sans text-base font-normal text-white bg-[#047DFE] px-6 py-4 mt-1 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">I needs a straightforward, dedicated app that clearly lists upcoming exhibitions and events, 
@@ -55,7 +55,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="col-span-5 grid grid-rows-3 gap-3">
+                      <div className="col-span-5 grid grid-rows-3 gap-2">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
                           The problem lies in the friction in planning and the difficulties of transaction which negatively affect the revenue and overall experience of this historic museum.
                           </p>  
@@ -63,7 +63,8 @@ export default function Home() {
 
                       <div className="col-start-1 col-span-6">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          Chaffee Art Museum
+                          I prioritized efficiency by eliminating unnecessary steps in the scheduling flow while 
+                          simultaneously bringing a spotlight to the local Rutland art scene and its artists.
                           </p>  
                       </div>
 
@@ -90,7 +91,20 @@ export default function Home() {
                         <div className="justify-center text-center mt-3 font-sans text-base font-normal text-black dark:text-white">
                           <p>Simple and straightforward user flow for scheduling visits</p>
                         </div>
+                        
                       </div>
+
+                      <div className="col-start-1 col-span-10 mt-5">
+                        <div className="aspect-[2268/1602] relative">
+                          <Image
+                          src="/images/screenstest.jpg"
+                          alt="Screen Test Mockup"
+                          fill
+                          className="object-cover"
+                        />
+                        </div>
+                      </div>
+
                     </div>
                 </div>
               </div>

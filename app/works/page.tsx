@@ -37,52 +37,98 @@ export default function Home() {
                 </div>
               </div>
 
-              <div  id="tuttle" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
+              <div  id="chaffee" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
               </div>
-
-              {/* <a href="/casestudy">Full Case Study</a> */}
 
               <div className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 md:mt-1 mt-0">
                 <div className="mb-10 md:mb-20">
-                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Tuttle Publishing Assets{" "}
-                    <span className="hidden md:inline md:text-base font-light italic">(Print and Digital, Graphic Design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3">(Print and Digital, Graphic Design)</div> 
-                  <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-6">
-                    <div className="col-start-1 col-span-3 space-y-2.5">
-                      <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">In the summer of 2025, I had the opportunity to work with Tuttle Publishing, one of the oldest publishers in the U.S. and a leading name in Asian culture publications.</p>
-                      <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white"> My daily responsibilities included designing Amazon A+ pages for both 
-                        frontlist and backlist titles, creating bookmarks and promotional materials for Publisher&apos;s Weekly and Library Journal.</p>
-                      <div className="mt-3 aspect-[4/3] relative">
-                        <Image
-                        src="/images/tuttle.JPG"
-                        alt="Tuttle Images"
-                        fill
-                        className="object-cover"
-                      />
-                      </div>                     
+                  <h2 className="font-serif text-xl md:text-2xl font-normal text-black dark:text-white">Chaffee Art Museum App{" "}
+                      <span className="hidden md:inline md:text-base font-light italic">(Product/User Experience Design)</span></h2>
+                      <div className="md:hidden font-serif text-base font-light italic text-black dark:text-white">(Product/User Experience Design)</div>
+                      <div className="hidden md:block font-serif text-xl font-medium underline italic text-[#047DFE] dark:text-white md:mb-4"><a href="/casestudy">full case study available here!</a></div>
+                      <div className="md:hidden block font-serif text-xl font-medium underline italic mb-3 text-[#047DFE] dark:text-white"><a href="/casestudy">full case study available here!</a></div> 
+                    <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-6">
+                      <div className="col-start-1 col-span-3">
+                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">Chaffee is a self-initiated UX project focused on modernizing the Chaffee Art Museum&apos;s digital engagement, 
+                        demonstrating the application of design thinking for social good, bridging community connection, and directly support the non-profit&apos;s operational and revenue goals.</p>
+                        <div className="mt-3 aspect-[4/3] relative">
+                          <Image
+                          src="/images/screens.jpg"
+                          alt="Screens Mockup"
+                          fill
+                          className="object-cover"
+                        />
+                        </div>
+                     
+                      </div>
+                      <div className="col-span-2 flex flex-col gap-3 md:gap-5">
+                        {/* Top image - 1:1 aspect */}
+  
+                        <div className="aspect-[1/1] relative">
+                          <Image
+                            src="/images/onboardingscreen.jpg"
+                            alt="Onboarding Screen"
+                            fill
+                            className="object-cover"
+                          />
+                        </div>  
+                        
+                        {/* Bottom image - 1:3 aspect (taller) */}
+                        <div className="aspect-[1.8/2.6] relative">
+                          <Image
+                            src="/images/eventdetail.jpg"
+                            alt="Event Detail Screen"
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                      </div>
+                  </div>
+                </div>
+
+                  <div id="publication1" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
+                  </div>
+
+                  <div className="mt-4 md:mt-5 mb-10 md:mb-20">
+                    <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Tuttle Publishing Assets{" "}
+                      <span className="hidden md:inline md:text-base font-light italic">(Print and Digital, Graphic Design)</span></h2>
+                      <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Print and Digital, Graphic Design)</div> 
+                    <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-6">
+                      <div className="col-start-1 col-span-3 space-y-2.5">
+                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">In the summer of 2025, I had the opportunity to work with Tuttle Publishing, one of the oldest publishers in the U.S. and a leading name in Asian culture publications.</p>
+                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white"> My daily responsibilities included designing Amazon A+ pages for both 
+                          frontlist and backlist titles, creating bookmarks and promotional materials for Publisher&apos;s Weekly and Library Journal.</p>
+                        <div className="mt-3 aspect-[4/3] relative">
+                          <Image
+                          src="/images/tuttle.JPG"
+                          alt="Tuttle Images"
+                          fill
+                          className="object-cover"
+                        />
+                        </div>                     
+                      </div>
+                      <div className="col-span-2 grid grid-rows-2 gap-3 md:gap-5">
+                        {/* Top small image */}
+                        <div className="aspect-[1/1] relative">
+                          <Image
+                            src="/images/fullad.jpg"
+                            alt="Full Page Ad"
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
+                        
+                        {/* Bottom small image */}
+                        <div className="aspect-[1/1] relative">
+                          <Image
+                            src="/images/green.jpg"
+                            alt="Half Page Ad"
+                            fill
+                            className="object-cover"
+                          />
+                        </div>
                     </div>
-                    <div className="col-span-2 grid grid-rows-2 gap-3 md:gap-5">
-                      {/* Top small image */}
-                      <div className="aspect-[1/1] relative">
-                        <Image
-                          src="/images/fullad.jpg"
-                          alt="Full Page Ad"
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
-                      
-                      {/* Bottom small image */}
-                      <div className="aspect-[1/1] relative">
-                        <Image
-                          src="/images/green.jpg"
-                          alt="Half Page Ad"
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
-                  </div>
-                  </div>
+                    </div>
                 </div>
 
                 <div id="publication1" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
@@ -92,7 +138,7 @@ export default function Home() {
                 <div className="mt-4 md:mt-5 mb-10 md:mb-20">
                   <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Publication #1{" "}
                     <span className="hidden md:inline md:text-base font-light italic">(Editorial, Graphic Design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3">(Editorial, Graphic Design)</div>
+                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Editorial, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">Shot entirely on two disposable cameras, this zine documents my brother&apos;s wedding through candid, run-and-gun moments. 
                         The raw, unfiltered images reveal an intimate look at the beauty and traditions of a Vietnamese wedding.</p>
@@ -141,7 +187,7 @@ export default function Home() {
                 <div className="mt-4 md:mt-5 mb-10 md:mb-20">
                   <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">&apos;aviat&apos;{" "} 
                     <span className="hidden md:inline md:text-base font-light italic">(Branding, Graphic Design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3">(Branding, Graphic Design)</div>
+                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Branding, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-7 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-7 font-sans text-base md:text-base font-normal text-black dark:text-white">&apos;aviat&apos;&apos;s new visual identity is anchored by a bold red ribbon—evoking both the excitement of a ribbon-cutting ceremony and the practicality of our signature tape products. 
                         This unified symbol captures our purpose: to seal, support, and strengthen every customer need.</p>
@@ -204,7 +250,7 @@ export default function Home() {
                 <div className="mt-4 md:mt-5 mb-10 md:mb-20">
                   <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Publication #2{" "}
                     <span className="hidden md:inline md:text-base font-light italic">(Editorial, Graphic Design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3">(Editorial, Graphic Design)</div>
+                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Editorial, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">Drawing from unfinished head sculptures left in my school&apos;s studio, 
                         I created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the creative potential hidden in abandoned pieces.</p>
@@ -239,45 +285,6 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div id="posters" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
-                </div>
-
-                <div className="mt-4 md:mt-5 mb-15 md:mb-20">
-                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Posters{" "}
-                    <span className="hidden md:inline md:text-base font-light italic">(Typography, Graphic Design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3">(Typography, Graphic Design)</div>
-                  <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-8">
-                    <div className="col-start-1 col-span-3">
-                      <div className="aspect-[3/4] relative">
-                        <Image
-                          src="/images/vietnamswissmockup.jpg"
-                          alt="Vietnamese Swiss Poster"
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-span-2 space-y-3 md:space-y-5">
-                      <div className="aspect-[3/4] relative">
-                        <Image
-                          src="/images/wordspeakloudermockup.jpg"
-                          alt="Swiss Poster"
-                          fill
-                          className="object-cover"
-                        />
-                        </div>
-                        <div className="aspect-[3/4] relative">
-                        <Image
-                          src="/images/swissmathmockup.jpg"
-                          alt="Vietnamese Swiss Poster"
-                          fill
-                          className="object-cover"
-                        />
-                        </div>
-                    </div>
-                     
-                  </div>
-                </div>
 
               </div>
 

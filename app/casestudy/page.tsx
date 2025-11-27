@@ -98,20 +98,20 @@ export default function Home() {
                           <br></br>
                           <br></br>
                           <br></br>
-                          <span className="font-serif font-light italic">"I spent two minutes trying to find the calendar to pick a date. It should just be right there."</span>
+                          <span className="font-serif font-light italic">&quot;I spent two minutes trying to find the calendar to pick a date. It should just be right there.&quot;</span>
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
-                          Primary information must be immediately accessible via the Tab Bar. The “Person” Tab is crucial, acting like a digital wallet for scannable tickets and membership, 
+                          Primary information must be immediately accessible via the Tab Bar. The &quot;Person&quot; Tab is crucial, acting like a digital wallet for scannable tickets and membership, 
                           emphasizing on simplicity and transparency when it comes to Purchasing.
                           </p>
                       </div>
 
                       <div className="md:hidden">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          <span className="font-serif font-light italic">"I spent two minutes trying to find the calendar to pick a date. It should just be right there."</span>                    
+                          <span className="font-serif font-light italic">&quot;I spent two minutes trying to find the calendar to pick a date. It should just be right there.&quot;</span>                    
                         </p>
                       </div>
 

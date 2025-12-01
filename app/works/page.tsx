@@ -95,8 +95,8 @@ export default function Home() {
                       <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Print and Digital, Graphic Design)</div> 
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-6">
                       <div className="col-start-1 col-span-3 space-y-2.5">
-                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">In the summer of 2025, I had the opportunity to work with Tuttle Publishing, one of the oldest publishers in the U.S. and a leading name in Asian culture publications.</p>
-                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white"> My daily responsibilities included designing Amazon A+ pages for both 
+                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">in the summer of 2025, i had the opportunity to work with Tuttle Publishing, one of the oldest publishers in the U.S. and a leading name in Asian culture publications.</p>
+                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white"> my daily responsibilities included designing Amazon A+ pages for both 
                           frontlist and backlist titles, creating bookmarks and promotional materials for Publisher&apos;s Weekly and Library Journal.</p>
                         <div className="mt-3 aspect-[4/3] relative">
                           <Image
@@ -140,8 +140,8 @@ export default function Home() {
                     <span className="hidden md:inline md:text-base font-light italic">(Editorial, Graphic Design)</span></h2>
                     <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Editorial, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">Shot entirely on two disposable cameras, this zine documents my brother&apos;s wedding through candid, run-and-gun moments. 
-                        The raw, unfiltered images reveal an intimate look at the beauty and traditions of a Vietnamese wedding.</p>
+                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">shot entirely on two disposable cameras, this zine documents my brother&apos;s wedding through candid, run-and-gun moments. 
+                        the raw, unfiltered images reveal an intimate look at the beauty and traditions of a Vietnamese wedding.</p>
                     <div className="col-start-1 col-span-2 space-y-3 md:space-y-5">
                       <div className="aspect-[4/3] relative">
                           <Image
@@ -190,7 +190,7 @@ export default function Home() {
                     <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Branding, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-7 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-7 font-sans text-base md:text-base font-normal text-black dark:text-white">&apos;aviat&apos;&apos;s new visual identity is anchored by a bold red ribbon—evoking both the excitement of a ribbon-cutting ceremony and the practicality of our signature tape products. 
-                        This unified symbol captures our purpose: to seal, support, and strengthen every customer need.</p>
+                        this unified symbol captures our purpose: to seal, support, and strengthen every customer need.</p>
                     <div className="col-start-1 col-span-3 space-y-3 md:space-y-5">
                       <div className="aspect-[3/1] relative">
                           <video
@@ -252,8 +252,8 @@ export default function Home() {
                     <span className="hidden md:inline md:text-base font-light italic">(Editorial, Graphic Design)</span></h2>
                     <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Editorial, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">Drawing from unfinished head sculptures left in my school&apos;s studio, 
-                        I created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the creative potential hidden in abandoned pieces.</p>
+                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">drawing from unfinished head sculptures left in my school&apos;s studio, 
+                        i created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the creative potential hidden in abandoned pieces.</p>
                       <div className="aspect-[4/3] relative col-start-1 col-span-4">
                           <Image
                           src="/images/decap1.jpg"

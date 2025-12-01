@@ -73,27 +73,27 @@ export default function Home() {
 
                       <div className="hidden md:block md:col-span-5">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          Quantitative Data Audit of the current Chaffee&apos;s website reveals significant drop-off in the transactional flow, 
+                          quantitative data audit of the current Chaffee&apos;s website reveals significant drop-off in the transactional flow, 
                           confirming the need for a simple, straightforward scheduling experience.
                           <br></br>
                           <br></br>
                           <br></br>
-                          <span className="text-3xl">61%</span> Bounce Rate for first time visitors and <span className="text-3xl">1.8%</span> Conversion Rate from Visit to Ticket Purchasing, the goal is to double this by
-                          simplifying the purchasing flow, using methods like Modals and Direct Navigation.
+                          61% bounce rate for first time visitors and 1.8% conversion rate from visit to ticket purchasing, the goal is to double this by
+                          simplifying the purchasing flow, using methods like modals and direct navigation.
                           </p>  
                       </div>
 
                       <div className="md:hidden">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          <span className="text-3xl">61%</span> Bounce Rate for first time visitors and <span className="text-3xl">1.8%</span> Conversion Rate from Visit to Ticket Purchasing, the goal is to double this by
-                          simplifying the purchasing flow, using methods like Modals and Direct Navigation.
+                          61% bounce rate for first time visitors and 1.8% conversion rate from visit to ticket purchasing, the goal is to double this by
+                          simplifying the purchasing flow, using methods like modals and direct navigation.
                         </p>
                         </div>
 
                       <div className="hidden md:block md:col-start-1 md:col-span-6">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          I had the chance to Interview with a group of seven recent first-time and returning visitors, 
-                          resulting in two critical areas of friction: Simplicity and Information Overload.
+                          i had the chance to interview with a group of seven recent first-time and returning visitors, 
+                          resulting in two critical areas of friction: simplicity and information overload.
                           <br></br>
                           <br></br>
                           <br></br>
@@ -104,14 +104,14 @@ export default function Home() {
                           <br></br>
                           <br></br>
                           <br></br>
-                          Primary information must be immediately accessible via the Tab Bar. The &quot;Person&quot; Tab is crucial, acting like a digital wallet for scannable tickets and membership, 
-                          emphasizing on simplicity and transparency when it comes to Purchasing.
+                          primary information must be immediately accessible via the tab bar. the &quot;Person&quot; tab is crucial, acting like a digital wallet for scannable tickets and membership, 
+                          emphasizing on simplicity and transparency when it comes to purchasing.
                           </p>
                       </div>
 
                       <div className="md:hidden">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          <span className="font-serif font-light italic">&quot;I spent two minutes trying to find the calendar to pick a date. It should just be right there.&quot;</span>                    
+                          <span className="font-serif font-light italic">&quot;i spent two minutes trying to find the calendar to pick a date. it should just be right there.&quot;</span>                    
                         </p>
                       </div>
 
@@ -128,8 +128,8 @@ export default function Home() {
 
                         <div className="md:hidden">
                           <p className="font-sans text-base font-normal text-black dark:text-white">
-                            Primary information must be immediately accessible via the Tab Bar. The “Person” Tab is crucial, acting like a digital wallet for scannable tickets and membership, 
-                          emphasizing on simplicity and transparency when it comes to Purchasing.
+                            primary information must be immediately accessible via the tab bar. the “Person” tab is crucial, acting like a digital wallet for scannable tickets and membership, 
+                          emphasizing on simplicity and transparency when it comes to purchasing.
                           </p>
                         </div>
 
@@ -155,7 +155,7 @@ export default function Home() {
                         />
                         </div>
                         <div className="justify-center text-center mt-3 font-serif text-base font-light text-black dark:text-white">
-                          <p>Simple and straightforward user flow for scheduling visits</p>
+                          <p>simple and straightforward user flow for scheduling visits</p>
                         </div>
                       </div>
 
@@ -173,20 +173,20 @@ export default function Home() {
                       <div className="hidden md:block md:col-start-5 md:col-span-6">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
                           <br></br>
-                          Since Chaffee is a small orginization with limited resources, the app is designed to seamlessly integrate with their existing CMS (Content Management System) to allow staff to easily update information 
+                          since Chaffee is a small orginization with limited resources, the app is designed to seamlessly integrate with their existing CMS (Content Management System) to allow staff to easily update information 
                           without requiring extensive technical knowledge.
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
-                          If I had more time, I would love to conduct usability testing to refine the product, and also expand the app 
+                          if i had more time, i would love to conduct usability testing to refine the product, and also expand the app 
                           to include features like virtual tours, audio and personalized Home Screen for members.
                         </p>
                       </div>
 
                       <div className="md:hidden">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          If I had more time, I would love to conduct usability testing to refine the product, and also expand the app 
+                          if i had more time, i would love to conduct usability testing to refine the product, and also expand the app 
                           to include features like virtual tours, audio and personalized Home Screen for members.
                         </p>
                         </div>

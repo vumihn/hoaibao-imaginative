@@ -67,7 +67,7 @@ export default function Home() {
             </div> */}
 
             <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4">
-                <h1 className="font-sans text-xl font-normal text-black dark:text-white">Work in progress...</h1>
+                <h1 className="font-sans text-xl font-normal text-black dark:text-white">work in progress...</h1>
                 </div>
             
             

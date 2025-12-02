@@ -32,8 +32,8 @@ export default function Home() {
                 </div>
 
                 <div>
-                    <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white"><span className="italic font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in Hanoi, Vietnam but
-                    currently residing in Dallas, TX.</p>
+                    <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white"><span className="italic font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in hanoi, vietnam but
+                    currently residing in dallas, tx.</p>
                 </div>
               </div>
 
@@ -42,14 +42,14 @@ export default function Home() {
 
               <div className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 md:mt-1 mt-0">
                 <div className="mb-10 md:mb-20">
-                  <h2 className="font-serif text-xl md:text-2xl font-normal text-black dark:text-white">Chaffee Art Museum App{" "}
-                      <span className="hidden md:inline md:text-base font-light italic">(Product/User Experience Design)</span></h2>
-                      <div className="md:hidden font-serif text-base font-light italic text-black dark:text-white">(Product/User Experience Design)</div>
+                  <h2 className="font-serif text-xl md:text-2xl font-normal text-black dark:text-white">chaffee art museum app{" "}
+                      <span className="hidden md:inline md:text-base font-light italic">(product/user experience design)</span></h2>
+                      <div className="md:hidden font-serif text-base font-light italic text-black dark:text-white">(product/user experience design)</div>
                       <div className="hidden md:block font-serif text-xl font-medium underline italic text-[#047DFE] dark:text-white md:mb-4"><a href="/casestudy">full case study available here!</a></div>
                       <div className="md:hidden block font-serif text-xl font-medium underline italic mb-3 text-[#047DFE] dark:text-white"><a href="/casestudy">full case study available here!</a></div> 
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-6">
                       <div className="col-start-1 col-span-3">
-                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">Chaffee is a self-initiated UX project focused on modernizing the Chaffee Art Museum&apos;s digital engagement, 
+                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">chaffee is a self-initiated ux project focused on modernizing the chaffee art museum&apos;s digital engagement, 
                         demonstrating the application of design thinking for social good, bridging community connection, and directly support the non-profit&apos;s operational and revenue goals.</p>
                         <div className="mt-3 aspect-[4/3] relative">
                           <Image
@@ -90,14 +90,14 @@ export default function Home() {
                   </div>
 
                   <div className="mt-4 md:mt-5 mb-10 md:mb-20">
-                    <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Tuttle Publishing Assets{" "}
-                      <span className="hidden md:inline md:text-base font-light italic">(Print and Digital, Graphic Design)</span></h2>
-                      <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Print and Digital, Graphic Design)</div> 
+                    <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">tuttle publishing assets{" "}
+                      <span className="hidden md:inline md:text-base font-light italic">(print and digital, graphic design)</span></h2>
+                      <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(print and digital, graphic design)</div> 
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-6">
                       <div className="col-start-1 col-span-3 space-y-2.5">
-                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">in the summer of 2025, i had the opportunity to work with Tuttle Publishing, one of the oldest publishers in the U.S. and a leading name in Asian culture publications.</p>
-                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white"> my daily responsibilities included designing Amazon A+ pages for both 
-                          frontlist and backlist titles, creating bookmarks and promotional materials for Publisher&apos;s Weekly and Library Journal.</p>
+                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">in the summer of 2025, i had the opportunity to work with tuttle publishing, one of the oldest publishers in the u.s. and a leading name in asian culture publications.</p>
+                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white"> my daily responsibilities included designing amazon a+ pages for both 
+                          frontlist and backlist titles, creating bookmarks and promotional materials for publisher&apos;s weekly and library journal.</p>
                         <div className="mt-3 aspect-[4/3] relative">
                           <Image
                           src="/images/tuttle.JPG"
@@ -136,12 +136,12 @@ export default function Home() {
 
 
                 <div className="mt-4 md:mt-5 mb-10 md:mb-20">
-                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Publication #1{" "}
-                    <span className="hidden md:inline md:text-base font-light italic">(Editorial, Graphic Design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Editorial, Graphic Design)</div>
+                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">publication #1{" "}
+                    <span className="hidden md:inline md:text-base font-light italic">(editorial, graphic design)</span></h2>
+                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(editorial, graphic design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">shot entirely on two disposable cameras, this zine documents my brother&apos;s wedding through candid, run-and-gun moments. 
-                        the raw, unfiltered images reveal an intimate look at the beauty and traditions of a Vietnamese wedding.</p>
+                        the raw, unfiltered images reveal an intimate look at the beauty and traditions of a vietnamese wedding.</p>
                     <div className="col-start-1 col-span-2 space-y-3 md:space-y-5">
                       <div className="aspect-[4/3] relative">
                           <Image
@@ -186,8 +186,8 @@ export default function Home() {
 
                 <div className="mt-4 md:mt-5 mb-10 md:mb-20">
                   <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">&apos;aviat&apos;{" "} 
-                    <span className="hidden md:inline md:text-base font-light italic">(Branding, Graphic Design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Branding, Graphic Design)</div>
+                    <span className="hidden md:inline md:text-base font-light italic">(branding, graphic design)</span></h2>
+                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(branding, graphic design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-7 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-7 font-sans text-base md:text-base font-normal text-black dark:text-white">&apos;aviat&apos;&apos;s new visual identity is anchored by a bold red ribbon—evoking both the excitement of a ribbon-cutting ceremony and the practicality of our signature tape products. 
                         this unified symbol captures our purpose: to seal, support, and strengthen every customer need.</p>
@@ -248,9 +248,9 @@ export default function Home() {
                 </div>
 
                 <div className="mt-4 md:mt-5 mb-10 md:mb-20">
-                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Publication #2{" "}
-                    <span className="hidden md:inline md:text-base font-light italic">(Editorial, Graphic Design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(Editorial, Graphic Design)</div>
+                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">publication #2{" "}
+                    <span className="hidden md:inline md:text-base font-light italic">(editorial, graphic design)</span></h2>
+                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(editorial, graphic design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
                       <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">drawing from unfinished head sculptures left in my school&apos;s studio, 
                         i created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the creative potential hidden in abandoned pieces.</p>

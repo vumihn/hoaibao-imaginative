@@ -77,9 +77,9 @@ export default function Home() {
 
 
                       <div>
-                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">my name is <span className="italic font-normal text-[#ae1f23]">minh</span>. i&apos;m a designer, coder from Hanoi, Vietnam, 
-                  currently residing in Dallas, TX.</p>
-                <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">welcome to my digital garden/portfolio. connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal italic hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal italic hover:opacity-70 transition-opacity">LinkedIn.</a></p>
+                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">my name is <span className="italic font-normal text-[#ae1f23]">minh</span>. i&apos;m a designer, coder from hanoi, vietnam, 
+                  currently residing in dallas, tx.</p>
+                <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">welcome to my digital garden/portfolio. connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal italic hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal italic hover:opacity-70 transition-opacity">linkedin.</a></p>
             </div>
             </div>
 
@@ -88,7 +88,7 @@ export default function Home() {
 
               <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-5 text-black dark:text-white">
                 <div className="mx-auto text-left font-sans text-xl font-semibold">
-                  <h2>{isExpanded ? "RESUME (ready for hire!)" : "RESUME (for employers)"}</h2>
+                  <h2>{isExpanded ? "résumé (ready for hire!)" : "résumé (for employers)"}</h2>
                 </div>
 
                 <div 
@@ -97,28 +97,28 @@ export default function Home() {
                 }`}>
                 <div className="font-sans text-base font-normal space-y-4">
                   <div>
-                    - Jun 2023 - Sep 2024: <span className="font-bold">TWIN Software Solution</span>
-                    <span className="italic"> . Frontend Developer Intern</span>
+                    - jun 2023 - sep 2024: <span className="font-bold">twin software solution</span>
+                    <span className="italic"> . frontend developer intern</span>
                   </div>
                   
                   <div>
-                    - Sep 2023 - May 2024: <span className="font-bold">Vietnamese Student Association</span>
-                    <span className="italic"> . Lead Designer</span>
+                    - sep 2023 - may 2024: <span className="font-bold">vietnamese student association</span>
+                    <span className="italic"> . lead designer</span>
                   </div>
                   
                   <div>
-                    - Jun 2024 - Sept 2024: <span className="font-bold">Alzerina Jewelry</span>
-                    <span className="italic"> . Website Designer Intern</span>
+                    - jun 2024 - sept 2024: <span className="font-bold">alzerina jewelry</span>
+                    <span className="italic"> . website designer intern</span>
                   </div>
                   
                   <div>
-                    - June 2025 - Oct 2025: <span className="font-bold">Tuttle Publishing</span>
-                    <span className="italic"> . Graphic Designer Intern</span>
+                    - june 2025 - oct 2025: <span className="font-bold">tuttle publishing</span>
+                    <span className="italic"> . graphic designer intern</span>
                   </div>
                   
                   <div>
-                    Aug 2021 - May 2025: Bachelor at Augustana College
-                    (Double Major in Graphic Design and Computer Science)
+                    aug 2021 - may 2025: bachelor at augustana college
+                    (double major in graphic design and computer science)
                   </div>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function Home() {
 
           <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-10 text-black dark:text-white">
             <div className="mx-auto text-left font-sans text-xl font-semibold mb-4">
-              <h2>COLOPHON/USES</h2>
+              <h2>colophon</h2>
             </div>
             <div className="font-sans text-base font-normal space-y-2">
                 <div className="font-sans text-base font-normal space-y-4">
@@ -136,13 +136,13 @@ export default function Home() {
                      i reached out to her directly, and she was very kind to give me some directions on this as well. thank you!
                   </div>
                   <div>
-                    - sketches and drafts for this website were done on Tuttle notebook and Figma. i often caught myself wandering, thinking about creating something personal from scratch, even when i was in office working. so here we are!
+                    - sketches and drafts for this website were done on tuttle notebook and figma. i often caught myself wandering, thinking about creating something personal from scratch, even when i was in office working. so here we are!
                   </div>
                   <div>
-                    - i built this website using Next.js, Tailwind CSS, a lot of Claude, and Vercel for deployment on a crappy ASUS laptop (i still love it, planning to buy a new laptop soon though).
+                    - i built this website using next.js, tailwind css, a lot of claude, and vercel for deployment on a crappy asus laptop (i still love it, planning to buy a new laptop soon though).
                   </div>
                   <div>
-                    - TWK Lausanne (my first licensed font) and Noto Serif (Google font) are my typefaces of choice for this website.
+                    - TWK Lausanne (my first licensed font) and Noto Serif (google font) are my typefaces of choice for this website.
                   </div>
                 </div>
             </div>

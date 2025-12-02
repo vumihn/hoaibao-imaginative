@@ -33,7 +33,7 @@ export default function Home() {
       image: "/images/tuttle.JPG",
       alt: "Project 1",
       href: "/works#tuttle",
-      title: "Tuttle Publishing",
+      title: "tuttle publishing",
       width: 4,
       height: 3,
       type: "image",
@@ -43,7 +43,7 @@ export default function Home() {
       image: "/images/eventdetailmockup.jpg",
       alt: "Project 3",
       href: "works#chaffee",
-      title: "Chaffee Art Museum App",
+      title: "chaffee art museum app",
       width: 1,
       height: 1,
       type: "image",
@@ -53,7 +53,7 @@ export default function Home() {
       video: "/images/cuoipromotional.mp4",
       alt: "Project 2",
       href: "works#publication1",
-      title: "Publication #1",
+      title: "publication #1",
       width: 1,
       height: 1,
       type: "video",
@@ -63,7 +63,7 @@ export default function Home() {
       video: "/images/aviatvertical.mp4",
       alt: "Project 4",
       href: "works#aviat",
-      title: "Aviat: Branding",
+      title: "aviat: branding",
       width: 3,
       height: 1,
       type: "video",
@@ -73,7 +73,7 @@ export default function Home() {
       image: "/images/decap4.jpg",
       alt: "Project 5",
       href: "works#publication2",
-      title: "Publication #2",
+      title: "publication #2",
       width: 4,
       height: 3,
       type: "image",
@@ -151,8 +151,8 @@ export default function Home() {
 
             <div>
               <p className="font-serif text-xl font-light text-black dark:text-white mb-12">
-                <span className="italic font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in Hanoi, Vietnam but
-                currently residing in Dallas, TX.
+                <span className="italic font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in hanoi, vietnam but
+                currently residing in dallas, tx.
               </p>
             </div>
 

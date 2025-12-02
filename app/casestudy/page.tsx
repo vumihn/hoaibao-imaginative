@@ -23,7 +23,7 @@ export default function Home() {
                     </div>
 
                     <div>
-                      <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">Chaffee is a self-initiated UX project focused on modernizing the Chaffee Art Museum&apos;s digital engagement, 
+                      <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">chaffee is a self-initiated ux project focused on modernizing the chaffee art museum&apos;s digital engagement, 
                         demonstrating the application of design thinking for social good, bridging community connection, and directly support the non-profit&apos;s operational and revenue goals.</p>
                     </div>
                 </div>
@@ -33,19 +33,19 @@ export default function Home() {
               <div className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 md:mt-1 mt-0">
                 <div className="mb-10 md:mb-20">
                   <h3 className="md:hidden font-serif text-base font-normal text-[#ae1f23] text-center" >desktop mode for full experience</h3>
-                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">Chaffee Art Museum App{" "}
-                    <span className="hidden md:inline md:text-base font-light italic">(Product/User Experience Design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3">(Product/User Experience Design)</div>
+                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">chaffee art museum app{" "}
+                    <span className="hidden md:inline md:text-base font-light italic">(product/user experience design)</span></h2>
+                    <div className="md:hidden font-serif text-base font-light italic mb-3">(product/user experience design)</div>
                     <div className="mx-auto space-y-5 md:space-y-2 md:grid md:grid-cols-10 md:gap-5 md:mt-6">
 
                       <div className="hidden md:grid md:col-start-3 md:col-span-6">
-                          <p className="font-sans text-base font-normal text-white bg-[#047DFE] px-6 py-4 mt-1 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">I need a straightforward, dedicated app that clearly lists upcoming exhibitions and events, 
-                            allows for easy ticket purchase because I want to support of the Chaffee Art Museum without navigating confusing online platforms.</p>
+                          <p className="font-sans text-base font-normal text-white bg-[#047DFE] px-6 py-4 mt-1 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">i need a straightforward, dedicated app that clearly lists upcoming exhibitions and events, 
+                            allows for easy ticket purchase because i want to support of the chaffee art museum without navigating confusing online platforms.</p>
                         </div>
 
                       <div className="block md:hidden">
-                          <p className="font-sans text-base font-normal text-white bg-[#047DFE] px-6 py-4 mt-1 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">I need a straightforward, dedicated app that 
-                            allows for easy ticket purchase because I want to support of the Chaffee Art Museum without navigating confusing online platforms.</p>
+                          <p className="font-sans text-base font-normal text-white bg-[#047DFE] px-6 py-4 mt-1 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">i need a straightforward, dedicated app that 
+                            allows for easy ticket purchase because i want to support of the chaffee art museum without navigating confusing online platforms.</p>
                         </div>
 
                       <div className="hidden md:block md:col-span-2">
@@ -73,7 +73,7 @@ export default function Home() {
 
                       <div className="hidden md:block md:col-span-5">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          quantitative data audit of the current Chaffee&apos;s website reveals significant drop-off in the transactional flow, 
+                          quantitative data audit of the current chaffee&apos;s website reveals significant drop-off in the transactional flow, 
                           confirming the need for a simple, straightforward scheduling experience.
                           <br></br>
                           <br></br>
@@ -98,13 +98,13 @@ export default function Home() {
                           <br></br>
                           <br></br>
                           <br></br>
-                          <span className="font-serif font-light italic">&quot;I spent two minutes trying to find the calendar to pick a date. It should just be right there.&quot;</span>
+                          <span className="font-serif font-light italic">&quot;i spent two minutes trying to find the calendar to pick a date. it should just be right there.&quot;</span>
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
-                          primary information must be immediately accessible via the tab bar. the &quot;Person&quot; tab is crucial, acting like a digital wallet for scannable tickets and membership, 
+                          primary information must be immediately accessible via the tab bar. the &quot;person&quot; tab is crucial, acting like a digital wallet for scannable tickets and membership, 
                           emphasizing on simplicity and transparency when it comes to purchasing.
                           </p>
                       </div>
@@ -128,7 +128,7 @@ export default function Home() {
 
                         <div className="md:hidden">
                           <p className="font-sans text-base font-normal text-black dark:text-white">
-                            primary information must be immediately accessible via the tab bar. the “Person” tab is crucial, acting like a digital wallet for scannable tickets and membership, 
+                            primary information must be immediately accessible via the tab bar. the "person” tab is crucial, acting like a digital wallet for scannable tickets and membership, 
                           emphasizing on simplicity and transparency when it comes to purchasing.
                           </p>
                         </div>
@@ -173,21 +173,21 @@ export default function Home() {
                       <div className="hidden md:block md:col-start-5 md:col-span-6">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
                           <br></br>
-                          since Chaffee is a small orginization with limited resources, the app is designed to seamlessly integrate with their existing CMS (Content Management System) to allow staff to easily update information 
+                          since chaffee is a small orginization with limited resources, the app is designed to seamlessly integrate with their existing cms (content management system) to allow staff to easily update information 
                           without requiring extensive technical knowledge.
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
                           if i had more time, i would love to conduct usability testing to refine the product, and also expand the app 
-                          to include features like virtual tours, audio and personalized Home Screen for members.
+                          to include features like virtual tours, audio and personalized home screen for members.
                         </p>
                       </div>
 
                       <div className="md:hidden">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
                           if i had more time, i would love to conduct usability testing to refine the product, and also expand the app 
-                          to include features like virtual tours, audio and personalized Home Screen for members.
+                          to include features like virtual tours, audio and personalized home screen for members.
                         </p>
                         </div>
                     </div>

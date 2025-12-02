@@ -128,7 +128,7 @@ export default function Home() {
 
                         <div className="md:hidden">
                           <p className="font-sans text-base font-normal text-black dark:text-white">
-                            primary information must be immediately accessible via the tab bar. the "person” tab is crucial, acting like a digital wallet for scannable tickets and membership, 
+                            primary information must be immediately accessible via the tab bar. the &quot;person&quot; tab is crucial, acting like a digital wallet for scannable tickets and membership, 
                           emphasizing on simplicity and transparency when it comes to purchasing.
                           </p>
                         </div>

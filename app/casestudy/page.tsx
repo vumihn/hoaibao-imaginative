@@ -136,7 +136,7 @@ export default function Home() {
                       <div className="col-start-1 col-span-10">
                         <div className="aspect-[2268/1602] relative">
                           <Image
-                          src="/images/screens.jpg"
+                          src="/images/screenstestnew.jpg"
                           alt="Screens Mockup"
                           fill
                           className="object-cover"

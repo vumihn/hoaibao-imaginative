@@ -53,7 +53,7 @@ export default function Home() {
                         demonstrating the application of design thinking for social good, bridging community connection, and directly support the non-profit&apos;s operational and revenue goals.</p>
                         <div className="mt-3 aspect-[4/3] relative">
                           <Image
-                          src="/images/screens.jpg"
+                          src="/images/screenstestnew.jpg"
                           alt="Screens Mockup"
                           fill
                           className="object-cover"

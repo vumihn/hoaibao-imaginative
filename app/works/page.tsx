@@ -53,7 +53,7 @@ export default function Home() {
                         demonstrating the application of design thinking for social good, bridging community connection, and directly support the non-profit&apos;s operational and revenue goals.</p>
                         <div className="mt-3 aspect-[4/3] relative">
                           <Image
-                          src="/images/screenstestnew.jpg"
+                          src="/images/screenstest.jpg"
                           alt="Screens Mockup"
                           fill
                           className="object-cover"
@@ -66,7 +66,7 @@ export default function Home() {
   
                         <div className="aspect-[1/1] relative">
                           <Image
-                            src="/images/onboardingscreen.jpg"
+                            src="/images/ob2.jpg"
                             alt="Onboarding Screen"
                             fill
                             className="object-cover"
@@ -76,7 +76,7 @@ export default function Home() {
                         {/* Bottom image - 1:3 aspect (taller) */}
                         <div className="aspect-[1.8/2.6] relative">
                           <Image
-                            src="/images/eventdetail.jpg"
+                            src="/images/eventdetailmock.jpg"
                             alt="Event Detail Screen"
                             fill
                             className="object-cover"

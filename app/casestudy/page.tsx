@@ -63,7 +63,7 @@ export default function Home() {
                       <div className="col-start-1 col-span-5">
                         <div className="aspect-[1/1] relative">
                           <Image
-                          src="/images/onboardingscreen.jpg"
+                          src="/images/ob2.jpg"
                           alt="On Boarding Mockup"
                           fill
                           className="object-cover"
@@ -136,7 +136,7 @@ export default function Home() {
                       <div className="col-start-1 col-span-10">
                         <div className="aspect-[2268/1602] relative">
                           <Image
-                          src="/images/screenstestnew.jpg"
+                          src="/images/screenstest.jpg"
                           alt="Screens Mockup"
                           fill
                           className="object-cover"
@@ -162,7 +162,7 @@ export default function Home() {
                       <div className="col-start-1 col-span-4">
                         <div className="aspect-[1164/1800] relative">
                           <Image
-                          src="/images/eventdetail.jpg"
+                          src="/images/eventdetailmock.jpg"
                           alt="Event Detail Mockup"
                           fill
                           className="object-cover"

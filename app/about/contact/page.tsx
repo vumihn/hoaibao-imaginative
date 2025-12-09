@@ -96,30 +96,32 @@ export default function Home() {
                   isExpanded ? 'max-h-screen opacity-100 mt-4' : 'max-h-0 opacity-0 mt-0'
                 }`}>
                 <div className="font-sans text-base font-normal space-y-4">
-                  <div>
-                    - jun 2023 - sep 2024: <span className="font-bold">twin software solution</span>
-                    <span className="italic"> . frontend developer intern</span>
-                  </div>
                   
                   <div>
-                    - sep 2023 - may 2024: <span className="font-bold">vietnamese student association</span>
-                    <span className="italic"> . lead designer</span>
+                    - dec 2025 - present: <span className="font-bold">office of international students and scholars</span>
+                    <span className="italic"> . digital design volunteer</span>
                   </div>
-                  
-                  <div>
-                    - jun 2024 - sept 2024: <span className="font-bold">alzerina jewelry</span>
-                    <span className="italic"> . website designer intern</span>
-                  </div>
-                  
+
                   <div>
                     - june 2025 - oct 2025: <span className="font-bold">tuttle publishing</span>
                     <span className="italic"> . graphic designer intern</span>
                   </div>
-                  
+
+                  <div>
+                    - jun 2024 - sept 2024: <span className="font-bold">alzerina jewelry</span>
+                    <span className="italic"> . website designer intern</span>
+                  </div>
+
+                  <div>
+                    - jun 2023 - sep 2024: <span className="font-bold">twin software solution</span>
+                    <span className="italic"> . frontend developer intern</span>
+                  </div>
+                
                   <div>
                     aug 2021 - may 2025: bachelor at augustana college
                     (double major in graphic design and computer science)
                   </div>
+                  
                 </div>
               </div>
           </div>

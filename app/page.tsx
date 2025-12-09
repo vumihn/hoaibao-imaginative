@@ -40,7 +40,7 @@ export default function Home() {
     },
     {
       id: 2,
-      image: "/images/eventdetailmockup.jpg",
+      image: "/images/f4.png",
       alt: "Project 3",
       href: "works#chaffee",
       title: "chaffee art museum app",

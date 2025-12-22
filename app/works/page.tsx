@@ -86,7 +86,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                  <div id="publication1" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
+                  <div id="tuttle" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
                   </div>
 
                   <div className="mt-4 md:mt-5 mb-10 md:mb-20">

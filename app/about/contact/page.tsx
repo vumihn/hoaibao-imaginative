@@ -78,8 +78,7 @@ export default function Home() {
 
                       <div>
                 <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">my name is <span className="italic font-normal text-[#ae1f23]">minh</span>. i&apos;m a designer, coder from hanoi, vietnam, 
-                  currently residing in dallas, tx.</p>
-                <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">welcome to my digital garden/portfolio. connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal italic hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal italic hover:opacity-70 transition-opacity">linkedin.</a></p>
+                  currently residing in dallas, tx. welcome to my digital garden/portfolio. connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal italic hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal italic hover:opacity-70 transition-opacity">linkedin.</a></p>
             </div>
             </div>
 

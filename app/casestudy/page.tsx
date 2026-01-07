@@ -23,8 +23,8 @@ export default function Home() {
                     </div>
 
                     <div>
-                      <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white">chaffee is a self-initiated ux project focused on modernizing the chaffee art museum&apos;s digital engagement, 
-                        demonstrating the application of design thinking for social good, bridging community connection, and directly support the non-profit&apos;s operational and revenue goals.</p>
+                      <p className="font-serif text-xl font-normal mb-2 md:mb-10 text-black dark:text-white">Chaffee Art Museum is more than just a museum; it&apos;s a community pillar. 
+                        To support its mission, I set out to build an app that simplifies the visitor experience—tackling everything from easy scheduling to immersive storytelling.</p>
                     </div>
                 </div>
                 <div  id="tuttle" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
@@ -32,20 +32,20 @@ export default function Home() {
 
               <div className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 md:mt-1 mt-0">
                 <div className="mb-10 md:mb-20">
-                  <h3 className="md:hidden font-serif text-base font-normal text-[#ae1f23] text-center" >desktop mode for full experience</h3>
-                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">chaffee art museum app{" "}
-                    <span className="hidden md:inline md:text-base font-light italic">(product/user experience design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3">(product/user experience design)</div>
+                  <h3 className="md:hidden font-serif text-base font-normal text-[#ae1f23] text-center" >Desktop for full experience</h3>
+                  <h2 className="font-serif text-xl md:text-2xl font-semibold text-black dark:text-white">Chaffee Art Museum App{" "}
+                    <span className="font-serif hidden md:inline md:text-base text-[#787878] font-normal">(Product/User Experience Design)</span></h2>
+                    <div className="md:hidden font-serif text-base font-normal text-[#787878]">(Product/User Experience Design)</div>
                     <div className="mx-auto space-y-5 md:space-y-2 md:grid md:grid-cols-10 md:gap-5 md:mt-6">
 
                       <div className="hidden md:grid md:col-start-3 md:col-span-6">
-                          <p className="font-sans text-base font-normal text-white bg-[#047DFE] px-6 py-4 mt-1 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">i need a straightforward, dedicated app that clearly lists upcoming exhibitions and events, 
-                            allows for easy ticket purchase because i want to support of the chaffee art museum without navigating confusing online platforms.</p>
+                          <p className="font-sans text-base font-normal text-white bg-[#047DFE] px-6 py-4 mt-1 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">I need a straightforward, dedicated app that clearly lists upcoming exhibitions and events, 
+                            allows for easy ticket purchase because I want to support Chaffee without navigating confusing online platforms.</p>
                         </div>
 
                       <div className="block md:hidden">
-                          <p className="font-sans text-base font-normal text-white bg-[#047DFE] px-6 py-4 mt-1 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">i need a straightforward, dedicated app that 
-                            allows for easy ticket purchase because i want to support of the chaffee art museum without navigating confusing online platforms.</p>
+                          <p className="font-sans text-base font-normal text-white bg-[#047DFE] px-6 py-4 mt-1 rounded-tl-3xl rounded-bl-3xl rounded-br-3xl">I need a straightforward, dedicated app that 
+                            allows for easy ticket purchase because I want to support Chaffee without navigating confusing online platforms.</p>
                         </div>
 
                       <div className="hidden md:block md:col-span-2">
@@ -72,8 +72,8 @@ export default function Home() {
                       </div>
 
                       <div className="hidden md:block md:col-span-5">
-                        <p className="font-sans text-base font-normal text-black dark:text-white">
-                          quantitative data audit of the current chaffee&apos;s website reveals significant drop-off in the transactional flow, 
+                        <p className="font-serif text-base font-normal text-black dark:text-white">
+                          Quantitative Data Audit of the current Chaffee&apos;s website reveals significant drop-off in the transactional flow, 
                           confirming the need for a simple, straightforward scheduling experience.
                           <br></br>
                           <br></br>
@@ -84,34 +84,34 @@ export default function Home() {
                       </div>
 
                       <div className="md:hidden">
-                        <p className="font-sans text-base font-normal text-black dark:text-white">
+                        <p className="font-serif text-base font-normal text-black dark:text-white">
                           61% bounce rate for first time visitors and 1.8% conversion rate from visit to ticket purchasing, the goal is to double this by
                           simplifying the purchasing flow, using methods like modals and direct navigation.
                         </p>
                         </div>
 
                       <div className="hidden md:block md:col-start-1 md:col-span-6">
-                        <p className="font-sans text-base font-normal text-black dark:text-white">
-                          i had the chance to interview with a group of seven recent first-time and returning visitors, 
+                        <p className="font-serif text-base font-normal text-black dark:text-white">
+                          Interviewing with a group of seven recent first-time and returning visitors, 
                           resulting in two critical areas of friction: simplicity and information overload.
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
-                          <span className="font-serif font-light italic">&quot;i spent two minutes trying to find the calendar to pick a date. it should just be right there.&quot;</span>
+                          <span className="font-serif font-normal text-[#787878] italic">&quot;I spent two minutes trying to find the calendar to pick a date. It should just be right there.&quot;</span>
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
-                          primary information must be immediately accessible via the tab bar. the &quot;person&quot; tab is crucial, acting like a digital wallet for scannable tickets and membership, 
+                          Primary information must be immediately accessible via the tab bar. the &quot;Person&quot; tab is crucial, acting like a digital wallet for scannable tickets and membership, 
                           emphasizing on simplicity and transparency when it comes to purchasing.
                           </p>
                       </div>
 
                       <div className="md:hidden">
-                        <p className="font-sans text-base font-normal text-black dark:text-white">
-                          <span className="font-serif font-light italic">&quot;i spent two minutes trying to find the calendar to pick a date. it should just be right there.&quot;</span>                    
+                        <p>
+                          <span className="font-serif font-normal italic text-[#787878]">&quot;I spent two minutes trying to find the calendar to pick a date. It should just be right there.&quot;</span>                    
                         </p>
                       </div>
 
@@ -127,8 +127,8 @@ export default function Home() {
                       </div>
 
                         <div className="md:hidden">
-                          <p className="font-sans text-base font-normal text-black dark:text-white">
-                            primary information must be immediately accessible via the tab bar. the &quot;person&quot; tab is crucial, acting like a digital wallet for scannable tickets and membership, 
+                          <p className="font-serif text-base font-normal text-black dark:text-white">
+                            Primary information must be immediately accessible via the tab bar. the &quot;Person&quot; tab is crucial, acting like a digital wallet for scannable tickets and membership, 
                           emphasizing on simplicity and transparency when it comes to purchasing.
                           </p>
                         </div>
@@ -154,8 +154,8 @@ export default function Home() {
                           className="object-cover"
                         />
                         </div>
-                        <div className="justify-center text-center mt-3 font-serif text-base font-light text-black dark:text-white">
-                          <p>simple and straightforward user flow for scheduling visits</p>
+                        <div className="justify-center text-center mt-3 font-serif text-sm  font-light text-[#787878]">
+                          <p>Simple and straightforward user flow for scheduling visits</p>
                         </div>
                       </div>
 
@@ -171,22 +171,22 @@ export default function Home() {
                       </div>
 
                       <div className="hidden md:block md:col-start-5 md:col-span-6">
-                        <p className="font-sans text-base font-normal text-black dark:text-white">
+                        <p className="font-serif text-base font-normal text-black dark:text-white">
                           <br></br>
-                          since chaffee is a small orginization with limited resources, the app is designed to seamlessly integrate with their existing cms (content management system) to allow staff to easily update information 
+                          Since Chaffee is a small orginization with limited resources, the app is designed to seamlessly integrate with their existing cms (content management system) to allow staff to easily update information 
                           without requiring extensive technical knowledge.
                           <br></br>
                           <br></br>
                           <br></br>
                           <br></br>
-                          if i had more time, i would love to conduct usability testing to refine the product, and also expand the app 
+                          If I had more time, I would love to conduct usability testing to refine the product, and also expand the app 
                           to include features like virtual tours, audio and personalized home screen for members.
                         </p>
                       </div>
 
                       <div className="md:hidden">
                         <p className="font-sans text-base font-normal text-black dark:text-white">
-                          if i had more time, i would love to conduct usability testing to refine the product, and also expand the app 
+                          If I had more time, I would love to conduct usability testing to refine the product, and also expand the app 
                           to include features like virtual tours, audio and personalized home screen for members.
                         </p>
                         </div>

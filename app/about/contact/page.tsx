@@ -77,73 +77,68 @@ export default function Home() {
 
 
                       <div>
-                <p className="font-serif text-xl font-light mb-2 text-black dark:text-white">my name is <span className="italic font-normal text-[#ae1f23]">minh</span>. i&apos;m a designer, coder from hanoi, vietnam, 
-                  currently residing in dallas, tx. i design for the community. welcome to my digital garden/portfolio. connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal italic hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal italic hover:opacity-70 transition-opacity">linkedin.</a></p>
+                <p className="font-serif text-xl font-normal mb-2 md:mb-10 text-black dark:text-white">My name is <span className="font-normal text-[#ae1f23]">minh</span>. I&apos;m a designer, coder from Hanoi, Vietnam, 
+                  currently residing in Dallas, TX. I design for the community. Welcome to my digital garden/portfolio. connect with me through <a href="mailto:vuminhnguyenpham1010@gmail.com" className="font-normal underline hover:opacity-70 transition-opacity">email</a> or <a href="https://www.linkedin.com/in/minh-nguyen-40a99322a/" target="_blank" rel="noopener noreferrer" className="font-normal underline hover:opacity-70 transition-opacity">LinkedIn.</a></p>
             </div>
             </div>
 
-            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-2 md:mb-10 border-b border-black dark:border-white">
+            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 border-b border-black dark:border-white">
             </div>
 
               <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-5 text-black dark:text-white">
-                <div className="mx-auto text-left font-sans text-xl font-semibold">
-                  <h2>{isExpanded ? "résumé (ready for hire!)" : "résumé (for employers)"}</h2>
+                <div className="mx-auto text-left font-serif text-xl font-semibold mb-4">
+                  <h2>Resume</h2>
                 </div>
 
-                <div 
-                className={`overflow-hidden transition-all duration-700 ease-in-out ${
-                  isExpanded ? 'max-h-screen opacity-100 mt-4' : 'max-h-0 opacity-0 mt-0'
-                }`}>
-                <div className="font-sans text-base font-normal space-y-4">
+               
+                <div className="font-serif text-base font-normal space-y-4">
                   
                   <div>
-                    - dec 2025 - present: <span className="font-bold">office of international students and scholars</span>
-                    <span className="italic"> . digital design volunteer</span>
+                    - <span className="font-semibold">Website Design & UX Researcher</span>
+                     . Alzerina Jewelry <span className="text-[#787878]">(Dec 2025 - Present)</span>
                   </div>
 
                   <div>
-                    - june 2025 - oct 2025: <span className="font-bold">tuttle publishing</span>
-                    <span className="italic"> . graphic designer intern</span>
+                    - <span className="font-semibold">Graphic Design Intern</span>
+                     . Tuttle Publishing <span className="text-[#787878]">(June 2025 - Nov 2025)</span>
                   </div>
 
                   <div>
-                    - jun 2024 - sept 2024: <span className="font-bold">alzerina jewelry</span>
-                    <span className="italic"> . website designer intern</span>
+                    - <span className="font-semibold">Website Design Intern</span>
+                     . Alzerina Jewelry <span className="text-[#787878]">(June 2024 - Sep 2024)</span>
                   </div>
 
                   <div>
-                    - jun 2023 - sep 2024: <span className="font-bold">twin software solution</span>
-                    <span className="italic"> . frontend developer intern</span>
+                    - <span className="font-semibold">Frontend Developer Intern</span>
+                    . TWIN Software <span className="text-[#787878]">(June 2023 - Sep 2023)</span>
                   </div>
                 
                   <div>
-                    aug 2021 - may 2025: bachelor at augustana college
-                    (double major in graphic design and computer science)
+                    - <span className="font-semibold">B.A.</span> in Graphic Design & Computer Science . Augustana College <span className="text-[#787878]">(Aug 2021 - May 2025)</span>
                   </div>
                   
                 </div>
               </div>
-          </div>
 
           <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-10 text-black dark:text-white">
-            <div className="mx-auto text-left font-sans text-xl font-semibold mb-4">
-              <h2>colophon</h2>
+            <div className="mx-auto text-left font-serif text-xl font-semibold mb-4">
+              <h2>Colophon</h2>
             </div>
-            <div className="font-sans text-base font-normal space-y-2">
-                <div className="font-sans text-base font-normal space-y-4">
+            <div>
+                <div className="font-serif text-base font-normal space-y-4">
                   <div>
-                    - i was inspired to create this website/personal blog/portfolio/digital garden or whatever you want to call
-                     it by <a href="https://anh.ng/" className="italic">@cybertrinket</a>(chị Ánh), 
-                     i reached out to her directly, and she was very kind to give me some directions on this as well. thank you!
+                    - I was inspired to create this website/personal blog/portfolio/digital garden or whatever you want to call
+                     it by <a href="https://anh.ng/" className="underline hover:opacity-70 transition-opacity">@cybertrinket </a>(chị Ánh), 
+                     I reached out to her directly, and she was very kind to give me some directions on this as well. Thank you!
                   </div>
                   <div>
-                    - sketches and drafts for this website were done on tuttle notebook and figma. i often caught myself wandering, thinking about creating something personal from scratch, even when i was in office working. so here we are!
+                    - Sketches and drafts for this website were done on the Tuttle notebook and Figma. I often caught myself wandering, thinking about creating something personal from scratch, even when I was in office working. So here we are!
                   </div>
                   <div>
-                    - i built this website using next.js, tailwind css, a lot of claude, and vercel for deployment on a crappy asus laptop (i still love it, planning to buy a new laptop soon though).
+                    - I built this website using Next.js, TailwindCSS, a lot of Claude, and Vercel for deployment on a crappy ASUS laptop (i still love it, planning to buy a new laptop soon though).
                   </div>
                   <div>
-                    - TWK Lausanne (my first licensed font) and Noto Serif (google font) are my typefaces of choice for this website.
+                    - <a href="https://tinyurl.com/36pac2k4" className="underline hover:opacity-70 transition-opacity">TWK Lausanne</a> (my first licensed font) and <a href="https://fonts.google.com/noto/specimen/Noto+Serif" className="underline hover:opacity-70 transition-opacity">Noto Serif</a> (Google font) are my typefaces of choice for this website.
                   </div>
                 </div>
             </div>

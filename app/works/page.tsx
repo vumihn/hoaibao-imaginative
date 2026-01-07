@@ -32,8 +32,8 @@ export default function Home() {
                 </div>
 
                 <div>
-                    <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white"><span className="italic font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in hanoi, vietnam but
-                    currently residing in dallas, tx.</p>
+                    <p className="font-serif text-xl font-normal mb-2 md:mb-10 text-black dark:text-white"><span className=" font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in Hanoi, Vietnam but
+                    currently residing in Dallas, TX.</p>
                 </div>
               </div>
 
@@ -42,15 +42,18 @@ export default function Home() {
 
               <div className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 md:mt-1 mt-0">
                 <div className="mb-10 md:mb-20">
-                  <h2 className="font-serif text-xl md:text-2xl font-normal text-black dark:text-white">chaffee art museum app{" "}
-                      <span className="hidden md:inline md:text-base font-light italic">(product/user experience design)</span></h2>
-                      <div className="md:hidden font-serif text-base font-light italic text-black dark:text-white">(product/user experience design)</div>
-                      <div className="hidden md:block font-serif text-xl font-medium underline italic text-[#047DFE] dark:text-white md:mb-4"><a href="/casestudy">full case study available here!</a></div>
-                      <div className="md:hidden block font-serif text-xl font-medium underline italic mb-3 text-[#047DFE] dark:text-white"><a href="/casestudy">full case study available here!</a></div> 
+                  <h2 className="font-serif text-xl md:text-2xl font-semibold text-black dark:text-white">Chaffee Art Museum App{" "}
+                      <span className="font-serif hidden md:inline md:text-base text-[#787878] font-normal">(Product/User Experience Design)</span></h2>
+                      <div className="md:hidden font-serif text-base font-normal text-[#787878]">(Product/User Experience Design)</div>
+                      <div className="hidden md:block font-serif text-xl font-medium underline italic text-[#047DFE] dark:text-white md:mb-4"><a href="/casestudy">full case study here!</a></div>
+                      <div className="md:hidden block font-serif text-xl font-medium underline italic mb-4 text-[#047DFE] dark:text-white"><a href="/casestudy">full case study here!</a></div> 
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-6">
                       <div className="col-start-1 col-span-3">
-                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">chaffee is a self-initiated ux project focused on modernizing the chaffee art museum&apos;s digital engagement, 
-                        demonstrating the application of design thinking for social good, bridging community connection, and directly support the non-profit&apos;s operational and revenue goals.</p>
+                        <div className="font-serif text-base font-normal text-black dark:text-white space-y-4">
+                          <p>Chaffee Art Museum is more than just a museum; it&apos;s a community pillar. To support its mission, I set out to build an app that simplifies the visitor experience—tackling everything from easy scheduling to immersive storytelling.</p>
+                          <p>This was my first time "dabbling" in the world of apps. My workflow stay the same compared to doing other types of project like editorial or branding, what actually is different is the times that I have to remind myself about who I am designing for and putting myself in the users&apos; shoes, and a lot, a lot of iterations, constant iterations in order to create a mindful solution.</p>
+                        </div>
+                        
                         <div className="mt-3 aspect-[4/3] relative">
                           <Image
                           src="/images/screenstest.jpg"
@@ -90,14 +93,14 @@ export default function Home() {
                   </div>
 
                   <div className="mt-4 md:mt-5 mb-10 md:mb-20">
-                    <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">tuttle publishing assets{" "}
-                      <span className="hidden md:inline md:text-base font-light italic">(print and digital, graphic design)</span></h2>
-                      <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(print and digital, graphic design)</div> 
+                    <h2 className="font-serif text-xl md:text-2xl font-semibold text-black dark:text-white">Tuttle Publishing Assets{" "}
+                      <span className="font-serif hidden md:inline md:text-base text-[#787878] font-normal">(Print and digital, Graphic Design)</span></h2>
+                      <div className="md:hidden font-serif text-base mb-4 font-normal text-[#787878]">(Print and digital, Graphic Gesign)</div> 
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-5 md:gap-5 md:mt-6">
-                      <div className="col-start-1 col-span-3 space-y-2.5">
-                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white">in the summer of 2025, i had the opportunity to work with tuttle publishing, one of the oldest publishers in the u.s. and a leading name in asian culture publications.</p>
-                        <p className="col-start-1 col-span-3 font-sans text-base md:text-base font-normal text-black dark:text-white"> my daily responsibilities included designing amazon a+ pages for both 
-                          frontlist and backlist titles, creating bookmarks and promotional materials for publisher&apos;s weekly and library journal.</p>
+                      <div className="col-start-1 col-span-3 space-y-4">
+                        <p className="col-start-1 col-span-3 font-serif text-base md:text-base font-normal text-black dark:text-white">In the summer of 2025, i had the opportunity to work with <a href="https://www.tuttlepublishing.com/" className="underline hover:opacity-70 transition-opacity">Tuttle Publishing</a>, one of the oldest publishers in the u.s. and a leading name in asian culture publications.</p>
+                        <p className="col-start-1 col-span-3 font-serif text-base md:text-base font-normal text-black dark:text-white"> My daily responsibilities included designing amazon A+ pages for both 
+                          frontlist and backlist titles, creating bookmarks and promotional materials for Publisher&apos;s Weekly and Library Journal.</p>
                         <div className="mt-3 aspect-[4/3] relative">
                           <Image
                           src="/images/tuttle.JPG"
@@ -136,12 +139,12 @@ export default function Home() {
 
 
                 <div className="mt-4 md:mt-5 mb-10 md:mb-20">
-                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">publication #1{" "}
-                    <span className="hidden md:inline md:text-base font-light italic">(editorial, graphic design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(editorial, graphic design)</div>
+                  <h2 className="font-serif text-xl md:text-2xl font-semibold text-black dark:text-white">Publication #1{" "}
+                    <span className="font-serif hidden md:inline md:text-base text-[#787878] font-normal">(Editorial, Graphic design)</span></h2>
+                    <div className="md:hidden font-serif mb-4 text-base font-normal text-[#787878]">(Editorial, Graphic design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">shot entirely on two disposable cameras, this zine documents my brother&apos;s wedding through candid, run-and-gun moments. 
-                        the raw, unfiltered images reveal an intimate look at the beauty and traditions of a vietnamese wedding.</p>
+                      <p className="col-start-1 col-span-4 font-serif text-base md:text-base font-normal text-black dark:text-white">Shot entirely on two disposable cameras, this zine documents my brother&apos;s wedding through candid, run-and-gun moments. 
+                        the raw, unfiltered images reveal an intimate look at the beauty and traditions of a Vietnamese wedding.</p>
                     <div className="col-start-1 col-span-2 space-y-3 md:space-y-5">
                       <div className="aspect-[4/3] relative">
                           <Image
@@ -181,79 +184,56 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div id="aviat" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
-                </div>
-
-                <div className="mt-4 md:mt-5 mb-10 md:mb-20">
-                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">&apos;aviat&apos;{" "} 
-                    <span className="hidden md:inline md:text-base font-light italic">(branding, graphic design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(branding, graphic design)</div>
-                    <div className="mx-auto space-y-3 md:grid md:grid-cols-7 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-7 font-sans text-base md:text-base font-normal text-black dark:text-white">&apos;aviat&apos;&apos;s new visual identity is anchored by a bold red ribbon—evoking both the excitement of a ribbon-cutting ceremony and the practicality of our signature tape products. 
-                        this unified symbol captures our purpose: to seal, support, and strengthen every customer need.</p>
-                    <div className="col-start-1 col-span-3 space-y-3 md:space-y-5">
-                      <div className="aspect-[3/1] relative">
-                          <video
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            className="absolute inset-0 w-full h-full object-cover"
-                          >
-                            <source src="/images/aviatvertical.mp4" type="video/mp4" />
-                          </video>
-                      </div>
-                      <div className="aspect-[3/3] relative">
-                          <video
-                            autoPlay
-                            loop
-                            muted
-                            playsInline
-                            className="absolute inset-0 w-full h-full object-cover"
-                          >
-                            <source src="/images/aviatuniform.mp4" type="video/mp4" />
-                          </video>
-                      </div>
-                      <div className="aspect-[4/3] relative">
-                        <Image
-                          src="/images/box.jpg"
-                          alt="Box Aviat"
-                          fill
-                          className="object-cover"
-                        />
-                      </div>                      
-                    </div>
-                    <div className="col-span-4 space-y-3 md:space-y-5">
-                      <div className="aspect-[4/3] relative">
-                        <Image
-                          src="/images/truckmockup.jpg"
-                          alt="Truck Aviat"
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
-                      <div className="aspect-[4/3] relative">
-                        <Image
-                          src="/images/wildposters.jpg"
-                          alt="Wild Posters"
-                          fill
-                          className="object-cover"
-                        />
-                      </div>
-                  </div>
-                  </div>
-                </div>
-
                 <div id="publication2" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
                 </div>
 
                 <div className="mt-4 md:mt-5 mb-10 md:mb-20">
-                  <h2 className="font-serif text-xl md:text-2xl font-normal md:mb-4 text-black dark:text-white">publication #2{" "}
-                    <span className="hidden md:inline md:text-base font-light italic">(editorial, graphic design)</span></h2>
-                    <div className="md:hidden font-serif text-base font-light italic mb-3 text-black dark:text-white">(editorial, graphic design)</div>
+                  <h2 className="font-serif text-xl md:text-2xl font-semibold text-black dark:text-white">Publication #2 
+                    <span className="font-serif hidden md:inline md:text-base text-[#787878] font-normal"> (Editorial, Graphic Design)</span></h2>
+                    <div className="md:hidden font-serif mb-4 text-base font-normal text-[#787878]">(Editorial, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-4 font-sans text-base md:text-base font-normal text-black dark:text-white">drawing from unfinished head sculptures left in my school&apos;s studio, 
-                        i created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the creative potential hidden in abandoned pieces.</p>
+                      <p className="col-start-1 col-span-4 font-serif text-base md:text-base font-normal text-black dark:text-white">Provo</p>
+                      <div className="aspect-[4/3] relative col-start-1 col-span-4">
+                          <Image
+                          src="/images/noten1.jpg"
+                          alt="Noten Zine"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>  
+                    <div className="col-start-1 col-span-2 space-y-3 md:space-y-5">
+                      <div className="aspect-[4/3] relative">
+                          <Image
+                          src="/images/noten2.jpg"
+                          alt="Noten Zine"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>                 
+                    </div>
+                    <div className="col-span-2">
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/images/noten3.jpg"
+                          alt="Noten Zine"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                  </div>
+                  </div>
+                </div>
+
+                <div id="publication3" className="col-start-1 col-span-10 md:col-start-2 md:col-span-6 b-12 border-b border-black dark:border-white">
+                </div>
+
+                <div className="mt-4 md:mt-5 mb-10 md:mb-20">
+                  <h2 className="font-serif text-xl md:text-2xl font-semibold text-black dark:text-white">Publication #3{" "}
+                    <span className="font-serif hidden md:inline md:text-base text-[#787878] font-normal">(Editorial, Graphic Design)</span></h2>
+                    <div className="md:hidden font-serif mb-4 text-base font-normal text-[#787878]">(Editorial, Graphic Design)</div>
+                    <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
+                      <p className="col-start-1 col-span-4 font-serif text-base md:text-base font-normal text-black dark:text-white">Drawing from unfinished head sculptures left in my school&apos;s studio, 
+                        I created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the creative potential hidden in abandoned pieces.</p>
                       <div className="aspect-[4/3] relative col-start-1 col-span-4">
                           <Image
                           src="/images/decap1.jpg"

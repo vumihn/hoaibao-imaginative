@@ -60,20 +60,20 @@ export default function Home() {
     },
     {
       id: 4,
-      video: "/images/aviatvertical.mp4",
+      image: "/images/noten1.jpg",
       alt: "Project 4",
-      href: "works#aviat",
-      title: "aviat: branding",
-      width: 3,
-      height: 1,
-      type: "video",
+      href: "works#publication2",
+      title: "publication #2",
+      width: 4,
+      height: 3,
+      type: "image",
     },
     {
       id: 5,
       image: "/images/decap4.jpg",
       alt: "Project 5",
-      href: "works#publication2",
-      title: "publication #2",
+      href: "works#publication3",
+      title: "publication #3",
       width: 4,
       height: 3,
       type: "image",
@@ -127,8 +127,8 @@ export default function Home() {
               <div className="col-start-2 col-span-2">
                 <div className="aspect-[345/264] relative">
                   <Image
-                    src="/images/baby1.png"
-                    alt="baby1"
+                    src="/images/homepageportfolio.jpg"
+                    alt="image of a rural area on my way home from the bus in Vermont"
                     fill
                     className="object-cover"
                   />
@@ -150,9 +150,9 @@ export default function Home() {
             </div>
 
             <div>
-              <p className="font-serif text-xl font-light text-black dark:text-white mb-12">
-                <span className="italic font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in hanoi, vietnam but
-                currently residing in dallas, tx.
+              <p className="font-serif text-xl font-normal text-black dark:text-white mb-12">
+                <span className="font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in Hanoi, Vietnam but
+                currently residing in Dallas, TX.
               </p>
             </div>
 

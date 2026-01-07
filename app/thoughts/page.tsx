@@ -19,11 +19,11 @@ export default function Home() {
             </div>
 
             <div>
-                <p className="font-serif text-xl font-light mb-2 md:mb-10 text-black dark:text-white"><span className="italic font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in hanoi, vietnam but currently residing in dallas, tx.</p>
+                <p className="font-serif text-xl font-normal mb-2 md:mb-10 text-black dark:text-white"><span className="font-normal text-[#ae1f23]">minh</span> is a multidisciplinary designer, coder based in Hanoi, vietnam but currently residing in Dallas, TX.</p>
             </div>
             </div>
 
-            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 mb-2 md:mb-10 border-b border-black dark:border-white">
+            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 border-b border-black dark:border-white">
               </div>
             
             {/* <div className="col-start-3 col-span-4">
@@ -67,7 +67,7 @@ export default function Home() {
             </div> */}
 
             <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4">
-                <h1 className="font-sans text-xl font-normal text-black dark:text-white">work in progress...</h1>
+                <h1 className="font-serif text-xl font-semibold text-black dark:text-white">Work in progress...</h1>
                 </div>
             
             

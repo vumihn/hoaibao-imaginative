@@ -125,12 +125,18 @@ export default function Home() {
 
             <div className="hidden md:grid grid-cols-4 gap-4 mb-3">
               <div className="col-start-2 col-span-2">
-                <div className="aspect-[345/264] relative">
+                <div className="aspect-[345/264] relative group">
                   <Image
                     src="/images/homepageportfolio.jpg"
                     alt="image of a rural area on my way home from the bus in Vermont"
                     fill
-                    className="object-cover"
+                    className="object-cover transition-opacity duration-300 group-hover:opacity-0"
+                  />
+                  <Image
+                    src="/images/redhover.png"
+                    alt="design for the community"
+                    fill
+                    className="object-cover absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                   />
                 </div>
               </div>
@@ -140,8 +146,8 @@ export default function Home() {
               <div className="col-start-3 col-span-6">
                 <div className="aspect-[345/264] relative">
                   <Image
-                    src="/images/baby1.png"
-                    alt="baby1"
+                    src="/images/homepageportfolio.jpg"
+                    alt="image of a rural area on my way home from the bus in Vermont"
                     fill
                     className="object-cover"
                   />

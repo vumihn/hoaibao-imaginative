@@ -143,8 +143,12 @@ export default function Home() {
                     <span className="font-serif hidden md:inline md:text-base text-[#787878] font-normal">(Editorial, Graphic design)</span></h2>
                     <div className="md:hidden font-serif mb-4 text-base font-normal text-[#787878]">(Editorial, Graphic design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-4 font-serif text-base md:text-base font-normal text-black dark:text-white">Shot entirely on two disposable cameras, this zine documents my brother&apos;s wedding through candid, run-and-gun moments. 
-                        the raw, unfiltered images reveal an intimate look at the beauty and traditions of a Vietnamese wedding.</p>
+                      <div className="col-start-1 col-span-4 font-serif text-base md:text-base font-normal text-black dark:text-white">
+                        <p>
+                          I had the chance to be back at Hanoi, Vietnam for my brother&apos;s wedding on February 2025. At the time, I was gifted a <a href="https://quicksnap.fujifilm.com/en/" className="underline hover:opacity-70 transition-opacity">Fuji Quick Snap</a> by a friend, so I decided to buy another one and 
+                          take pictures throughout the wedding and the ceremonies. These were raw, unfiltered images of how a modern Vietnamese wedding would look like.
+                        </p>
+                        </div>
                     <div className="col-start-1 col-span-2 space-y-3 md:space-y-5">
                       <div className="aspect-[4/3] relative">
                           <Image
@@ -192,7 +196,12 @@ export default function Home() {
                     <span className="font-serif hidden md:inline md:text-base text-[#787878] font-normal"> (Editorial, Graphic Design)</span></h2>
                     <div className="md:hidden font-serif mb-4 text-base font-normal text-[#787878]">(Editorial, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-4 font-serif text-base md:text-base font-normal text-black dark:text-white">Provo</p>
+                      <div className="col-start-1 col-span-4 font-serif text-base font-normal text-black dark:text-white space-y-4">
+                          <p>This is a brochure dedicated for <a href="https://en.wikipedia.org/wiki/Provo_(movement)" className="underline hover:opacity-70 transition-opacity">Provo</a>, an Amsterdam anarchist movement that existed for two years (1965-1967). 
+                          Considering this as an mini archive of their history and motifs, highlighting some of their most famous acts as well as thinking about counterculture as a concept.</p>
+                          <p>As a way to wrap up my project, I designed and printed out some posters, and some copies of my zine and place them all around the campus.</p>
+                      </div>
+                     
                       <div className="aspect-[4/3] relative col-start-1 col-span-4">
                           <Image
                           src="/images/noten1.jpg"
@@ -200,7 +209,15 @@ export default function Home() {
                           fill
                           className="object-cover"
                         />
-                      </div>  
+                      </div>
+                      <div className="aspect-[4/3] relative col-start-1 col-span-4">
+                          <Image
+                          src="/images/provo.jpeg"
+                          alt="Provo Pamphlete"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>   
                     <div className="col-start-1 col-span-2 space-y-3 md:space-y-5">
                       <div className="aspect-[4/3] relative">
                           <Image
@@ -232,8 +249,11 @@ export default function Home() {
                     <span className="font-serif hidden md:inline md:text-base text-[#787878] font-normal">(Editorial, Graphic Design)</span></h2>
                     <div className="md:hidden font-serif mb-4 text-base font-normal text-[#787878]">(Editorial, Graphic Design)</div>
                     <div className="mx-auto space-y-3 md:grid md:grid-cols-4 md:gap-5 md:mt-6">
-                      <p className="col-start-1 col-span-4 font-serif text-base md:text-base font-normal text-black dark:text-white">Drawing from unfinished head sculptures left in my school&apos;s studio, 
-                        I created a photozine that captures their unpolished beauty—challenging artistic finality and revealing the creative potential hidden in abandoned pieces.</p>
+                      <div className="col-start-1 col-span-4 font-serif text-base md:text-base font-normal text-black dark:text-white">
+                        <p>
+                        For a semester, I was working at my college&apos;s sculpture studio to help the professor their clean and organize the studio to prepare for a class. I found some head sculptures that were left unfinished, so I &quot;stole&quot; them, scatter them around campus again and take pictures with my Iphone, edit them with Photoshop 
+                        and create a publication for them. In this zine I talk about the act of distributing arts and the fun I had while making it.</p>
+                        </div>
                       <div className="aspect-[4/3] relative col-start-1 col-span-4">
                           <Image
                           src="/images/decap1.jpg"
@@ -262,6 +282,14 @@ export default function Home() {
                         />
                       </div>
                   </div>
+                  <div className="aspect-[4/3] relative col-start-1 col-span-4">
+                          <Image
+                          src="/images/decap6.jpg"
+                          alt="Collection of Sculptures laying on the floor"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
                   </div>
                 </div>
 

@@ -66,8 +66,20 @@ export default function Home() {
             </div>
             </div> */}
 
-            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4">
-                <h1 className="font-serif text-xl font-semibold text-black dark:text-white">Work in progress...</h1>
+            <div className="col-start-1 col-span-10 md:col-start-3 md:col-span-4 space-x-4">
+                <h1 className="font-serif text-xl font-semibold text-black dark:text-white mb-4">Open Thoughts Jan 7</h1>
+                <p className="font-serif text-base font-normal text-black dark:text-white">
+                    Here are some thoughts I gather after finish (for now) factoring and rewriting a lot of my writings on this website. I want to rethink on how I will approach writings on my website.
+                    Prior to this, I treated them lightly, seeing them as just words that sound good. I used to write, then tell AI to fix my copywriting. I think I need to be more serious when 
+                    it comes to writing, especially <a href="https://www.thomashirschhorn.com/why-do-i-write-about-my-work/" className="underline hover:opacity-70 transition-opacity">writing about my work</a>. From now on:
+                    <ul className="mt-4 list-inside space-y-2">
+                        <li className="list-disc">I think about what I will write before how I will write.</li>
+                        <li className="list-disc">My website is not just for recruiters, I want my website to be for everyone, considering it&apos;s my digital garden
+                            and I want to be a welcoming host.
+                        </li>
+                        <li className="list-disc">I write on my work as a way to reflect on my work, and assure myself about my work.</li>
+                    </ul>
+                </p>
                 </div>
             
             

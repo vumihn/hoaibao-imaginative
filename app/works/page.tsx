@@ -51,7 +51,7 @@ export default function Home() {
                       <div className="col-start-1 col-span-3">
                         <div className="font-serif text-base font-normal text-black dark:text-white space-y-4">
                           <p>Chaffee Art Museum is more than just a museum; it&apos;s a community pillar. To support its mission, I set out to build an app that simplifies the visitor experience—tackling everything from easy scheduling to immersive storytelling.</p>
-                          <p>This was my first time "dabbling" in the world of apps. My workflow stay the same compared to doing other types of project like editorial or branding, what actually is different is the times that I have to remind myself about who I am designing for and putting myself in the users&apos; shoes, and a lot, a lot of iterations, constant iterations in order to create a mindful solution.</p>
+                          <p>This was my first time &quot;dabbling&quot; in the world of apps. My workflow stay the same compared to doing other types of project like editorial or branding, what actually is different is the times that I have to remind myself about who I am designing for and putting myself in the users&apos; shoes, and a lot, a lot of iterations, constant iterations in order to create a mindful solution.</p>
                         </div>
                         
                         <div className="mt-3 aspect-[4/3] relative">
